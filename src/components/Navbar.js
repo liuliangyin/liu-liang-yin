@@ -9,13 +9,14 @@ const Root = styled.nav`
   position: absolute;
   top: 30px;
   left: 50px;
+  z-index: 1;
 `;
 
 const MenuWrapper = styled.div`
   padding-top: 70px;
 `;
 
-const MenuItem = styled.div`
+export const NavItem = styled.div`
   font-size: 14;
   font-weight: 500;
   color: #000;
@@ -34,17 +35,14 @@ const MenuItem = styled.div`
 class Navbar extends Component {
   state = {  }
   render() {
+    const { onActive } = this.props;
     return (
       <Root>
         <Link to="/">
           <LogoWithName />
         </Link>
         <MenuWrapper>
-          <MenuItem active>Project</MenuItem>
-          <MenuItem>Graphic</MenuItem>
-          <MenuItem>Illustration</MenuItem>
-          <MenuItem>Profile</MenuItem>
-          <MenuItem>Contact</MenuItem>
+          {this.props.children}
         </MenuWrapper>
       </Root>
     );
