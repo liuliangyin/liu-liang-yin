@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: '<Jade Eyes> CD Cover Redesign '
+title: Jade Eyes
 date: '2017-07-06'
 tags:
   - Product  Design
