@@ -11,7 +11,7 @@ AiR Infatable Furniture為2017畢業展覽的主題，產品設計類。AiR為�
 
 整體產品完成後，我們為AiR infatable Furniture建立產品品牌網站。網站的landing page以產品的介紹為主，搭配視覺輔助圖形，營造充氣品牌的輕盈感受。 
 
----
+-
 
 團隊成員:譚雅云、陳凡、劉亮吟
 
