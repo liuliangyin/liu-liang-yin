@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
@@ -7,8 +7,10 @@ import Link from 'gatsby-link';
 
 import Content, { HTMLContent } from '../components/Content';
 import TagList from '../components/TagList';
+import NavbarWithLinks from '../components/NavbarWithLinks';
 
 const Section = styled.div`
+  padding-top: 80px;
   text-align: center;
 `;
 
@@ -75,17 +77,20 @@ ProjectTemplate.propTypes = {
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
-    <ProjectTemplate
-      date={post.frontmatter.date}
-      content={post.html}
-      heroImage={post.frontmatter.heroImage}
-      contentComponent={HTMLContent}
-      helmet={
-        <Helmet title={`${post.frontmatter.title} | Project`} />
-      }
-      tags={post.frontmatter.tags}
-      title={post.frontmatter.title}
-    />
+    <Fragment>
+      <NavbarWithLinks />
+      <ProjectTemplate
+        date={post.frontmatter.date}
+        content={post.html}
+        heroImage={post.frontmatter.heroImage}
+        contentComponent={HTMLContent}
+        helmet={
+          <Helmet title={`${post.frontmatter.title} | Project`} />
+        }
+        tags={post.frontmatter.tags}
+        title={post.frontmatter.title}
+      />
+    </Fragment>
   );
 };
 

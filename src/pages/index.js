@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
+import { Transition, animated } from 'react-spring';
 
 import Navbar, { NavItem } from '../components/Navbar';
 
@@ -24,12 +25,14 @@ const ProjectYear = styled.div`
   display: inline-block;
   font-size: 10px;
   font-weight: 300;
+  color: #000;
 `;
 
 const ProjectName = styled.div`
   display: inline-block;
   font-size: 12px;
   padding-left: 10px;
+  color: #000;
 `;
 
 const BackgroundImage = styled.div`
@@ -40,7 +43,7 @@ const BackgroundImage = styled.div`
 
 export default class IndexPage extends React.Component {
   state = {
-    activeIndex: null,
+    activeIndex: this.props.location.state || 'project',
     backgroundImage: null,
   };
 
@@ -110,7 +113,15 @@ export default class IndexPage extends React.Component {
         )}
         <Content />
         <BackgroundImage>
-          <img src={this.state.backgroundImage} />
+          <Transition
+            from={{ opacity: 0 }}
+            enter={{ opacity: 1 }}
+            leave={{ opacity: 0 }}
+          >
+            {!!this.state.backgroundImage ? (
+              ({ opacity }) => <img src={this.state.backgroundImage} style={{ opacity }} />
+            ) : () => null}
+          </Transition>
         </BackgroundImage>
       </div>
     );
