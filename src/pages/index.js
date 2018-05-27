@@ -5,8 +5,14 @@ import Link from 'gatsby-link';
 import { Transition, animated } from 'react-spring';
 
 import Navbar, { NavItem } from '../components/Navbar';
+import { HTMLContent } from '../components/Content';
+import { AboutPageTemplate } from '../templates/about-page';
 
-const Content = styled.div``;
+const Content = styled.div`
+  position: absolute;
+  left: 470px;
+  top: 150px;
+`;
 
 const SubMenu = styled.ul`
   position: absolute;
@@ -39,6 +45,12 @@ const BackgroundImageWrapper = styled.div`
   position: fixed;
   right: 0;
   bottom: 0;
+  z-index: -1;
+
+  @media (max-width: 900px) {
+    left: 0;
+    top: 0;
+  }
 `;
 
 export default class IndexPage extends React.Component {
@@ -92,33 +104,50 @@ export default class IndexPage extends React.Component {
           >
             Illustration
           </NavItem>
-          <NavItem>Profile</NavItem>
-          <NavItem>Contact</NavItem>
+          <NavItem
+            onClick={() => this.onActiveNavItem('about')}
+            active={activeIndex === 'about'}
+          >
+            About
+          </NavItem>
         </Navbar>
-        {activeIndex && (
-          <SubMenu>
-            {data[activeIndex] &&
-              data[activeIndex].edges.map(({ node: post }) => (
-                <ProjectLi
-                  key={post.id}
-                  onMouseEnter={() =>
-                    this.onChangeBackground(
-                      post.frontmatter.heroImage,
-                    )
-                  }
-                  onMouseLeave={() => this.onChangeBackground()}
-                >
-                  <Link to={post.fields.slug}>
-                    <ProjectYear>{post.frontmatter.date}</ProjectYear>
-                    <ProjectName>
-                      {post.frontmatter.title}
-                    </ProjectName>
-                  </Link>
-                </ProjectLi>
-              ))}
-          </SubMenu>
-        )}
-        <Content />
+        {activeIndex &&
+          activeIndex !== 'about' && (
+            <SubMenu>
+              {data[activeIndex] &&
+                data[activeIndex].edges.map(({ node: post }) => (
+                  <ProjectLi
+                    key={post.id}
+                    onMouseEnter={() =>
+                      this.onChangeBackground(
+                        post.frontmatter.heroImage,
+                      )
+                    }
+                    onMouseLeave={() => this.onChangeBackground()}
+                  >
+                    <Link to={post.fields.slug}>
+                      <ProjectYear>
+                        {post.frontmatter.date}
+                      </ProjectYear>
+                      <ProjectName>
+                        {post.frontmatter.title}
+                      </ProjectName>
+                    </Link>
+                  </ProjectLi>
+                ))}
+            </SubMenu>
+          )}
+        {activeIndex &&
+          activeIndex === 'about' && (
+            <Content>
+              <AboutPageTemplate
+                contentComponent={HTMLContent}
+                title={data.about.frontmatter.title}
+                image={data.about.frontmatter.image}
+                content={data.about.html}
+              />
+            </Content>
+          )}
         <Transition
           native
           from={{ opacity: 0 }}
@@ -130,7 +159,12 @@ export default class IndexPage extends React.Component {
                 <BackgroundImageWrapper>
                   <animated.img
                     src={this.state.backgroundImage}
-                    style={{ opacity }}
+                    style={{
+                      opacity,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                    }}
                   />
                 </BackgroundImageWrapper>
               )
@@ -206,6 +240,15 @@ export const pageQuery = graphql`
             heroImage
           }
         }
+      }
+    }
+    about: markdownRemark(
+      frontmatter: { templateKey: { eq: "about-page" } }
+    ) {
+      html
+      frontmatter {
+        image
+        title
       }
     }
   }

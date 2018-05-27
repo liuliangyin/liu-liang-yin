@@ -9,7 +9,6 @@ import './all.scss';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet title="Liu Liang Yin" />
-    {/* <Navbar /> */}
     <div>{children()}</div>
   </div>
 );

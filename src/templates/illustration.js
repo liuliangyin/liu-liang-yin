@@ -1,9 +1,9 @@
-import { default as GraphicPage } from './project';
+import { default as illustrationPage } from './project';
 
-export default GraphicPage;
+export default illustrationPage;
 
 export const pageQuery = graphql`
-  query GraphicByID($id: String!) {
+  query illustrationByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

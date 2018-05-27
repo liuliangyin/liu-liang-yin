@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  background: #FDFDFD;
+  background: #fdfdfd;
+  color: #000000;
 }
 
 a:link {
@@ -17,4 +18,36 @@ p {
   letter-spacing: -0.43px;
   line-height: 30px;
   font-weight: 300;
+}
+
+.post {
+  p {
+    max-width: 800px;
+    margin: auto;
+  }
+}
+
+img {
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.content {
+  max-width: 330px;
+  text-align: left;
+  padding-right: 30px;
+
+  p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  h2 {
+    padding-bottom: 7px;
+    padding-top: 20px;
+  }
 }

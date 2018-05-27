@@ -33,8 +33,6 @@ const Img = styled.img`
 `;
 
 const ContentWrapper = styled.div`
-  max-width: 800px;
-  width: 90%;
   margin: auto;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -47,7 +45,6 @@ export const ProjectTemplate = ({
   tags,
   title,
   helmet,
-  heroImage,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -58,9 +55,8 @@ export const ProjectTemplate = ({
       <Title>{title}</Title>
       {tags && tags.length && <TagList tags={tags} />}
       <ContentWrapper>
-        <PostContent content={content} />
+        <PostContent content={content} className="post"/>
       </ContentWrapper>
-      <Img src={heroImage} />
     </Section>
   );
 };
@@ -71,7 +67,6 @@ ProjectTemplate.propTypes = {
   title: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet),
   date: PropTypes.string,
-  heroImage: PropTypes.string,
 };
 
 const BlogPost = ({ data }) => {
@@ -82,7 +77,6 @@ const BlogPost = ({ data }) => {
       <ProjectTemplate
         date={post.frontmatter.date}
         content={post.html}
-        heroImage={post.frontmatter.heroImage}
         contentComponent={HTMLContent}
         helmet={
           <Helmet title={`${post.frontmatter.title} | Project`} />
@@ -110,7 +104,6 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "YYYY")
         title
-        heroImage
         tags
       }
     }

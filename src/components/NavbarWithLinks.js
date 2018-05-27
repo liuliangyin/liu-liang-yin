@@ -20,8 +20,7 @@ class NavbarWithLinks extends PureComponent {
             <NavItem>Graphic</NavItem>
           </Link>
           <NavItem>Illustration</NavItem>
-          <NavItem>Profile</NavItem>
-          <NavItem>Contact</NavItem>
+          <NavItem>About</NavItem>
       </Navbar>
     );
   }

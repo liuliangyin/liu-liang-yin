@@ -48,7 +48,7 @@ const flash = keyframes`
 `;
 
 export const NavItem = styled.div`
-  font-size: 14;
+  font-size: 14px;
   font-weight: 500;
   color: #000;
   opacity: ${props => (props.active ? 1 : 0.3)};
