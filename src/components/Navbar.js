@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import styled, { css } from 'styled-components';
+import styled, { css, keyframes } from 'styled-components';
 import Link from 'gatsby-link';
 
 import LogoWithName from './LogoWithName';
@@ -24,7 +24,7 @@ const Root = styled.nav`
       padding-left: 50px;
       padding-right: 50px;
       justify-content: space-between;
-      background: #FDFDFD;
+      background: #fdfdfd;
     `};
 `;
 
@@ -38,6 +38,15 @@ const MenuWrapper = styled.div`
     `};
 `;
 
+const flash = keyframes`
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  40% {opacity: 0;}
+  60% {opacity: 1;}
+  80% {opacity: 0;}
+  100% {opacity: 1;}
+`;
+
 export const NavItem = styled.div`
   font-size: 14;
   font-weight: 500;
@@ -49,7 +58,7 @@ export const NavItem = styled.div`
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 
   :hover {
-    opacity: 1;
+    animation: ${flash} 250ms;
   }
 `;
 
@@ -68,39 +77,5 @@ class Navbar extends PureComponent {
     );
   }
 }
-
-// const Navbar = () => (
-//   <nav className="navbar is-transparent">
-//     <div className="container">
-//       <div className="navbar-brand">
-//         <Link to="/" className="navbar-item">
-//           <figure className="image">
-//             <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-//           </figure>
-//         </Link>
-//       </div>
-//       <div className="navbar-start">
-//         <Link className="navbar-item" to="/about">
-//           About
-//         </Link>
-//         <Link className="navbar-item" to="/products">
-//           Products
-//         </Link>
-//       </div>
-//       <div className="navbar-end">
-//         <a
-//           className="navbar-item"
-//           href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           <span className="icon">
-//             <img src={github} alt="Github" />
-//           </span>
-//         </a>
-//       </div>
-//     </div>
-//   </nav>
-// )
 
 export default Navbar;

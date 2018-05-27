@@ -35,7 +35,7 @@ const ProjectName = styled.div`
   color: #000;
 `;
 
-const BackgroundImage = styled.div`
+const BackgroundImageWrapper = styled.div`
   position: fixed;
   right: 0;
   bottom: 0;
@@ -45,6 +45,7 @@ export default class IndexPage extends React.Component {
   state = {
     activeIndex: this.props.location.state || 'project',
     backgroundImage: null,
+    showImage: false,
   };
 
   onActiveNavItem = activeIndex => {
@@ -54,15 +55,21 @@ export default class IndexPage extends React.Component {
   };
 
   onChangeBackground = image => {
-    this.setState({
-      backgroundImage: image,
-    });
+    if (image) {
+      this.setState({
+        backgroundImage: image,
+        showImage: true,
+      });
+    } else {
+      this.setState({
+        showImage: false,
+      });
+    }
   };
 
   render() {
     const { data } = this.props;
     const { activeIndex } = this.state;
-    // const { edges } = data.allMarkdownRemark;
 
     return (
       <div>
@@ -99,7 +106,7 @@ export default class IndexPage extends React.Component {
                       post.frontmatter.heroImage,
                     )
                   }
-                  onMouseLeave={() => this.onChangeBackground(null)}
+                  onMouseLeave={() => this.onChangeBackground()}
                 >
                   <Link to={post.fields.slug}>
                     <ProjectYear>{post.frontmatter.date}</ProjectYear>
@@ -112,17 +119,23 @@ export default class IndexPage extends React.Component {
           </SubMenu>
         )}
         <Content />
-        <BackgroundImage>
-          <Transition
-            from={{ opacity: 0 }}
-            enter={{ opacity: 1 }}
-            leave={{ opacity: 0 }}
-          >
-            {!!this.state.backgroundImage ? (
-              ({ opacity }) => <img src={this.state.backgroundImage} style={{ opacity }} />
-            ) : () => null}
-          </Transition>
-        </BackgroundImage>
+        <Transition
+          native
+          from={{ opacity: 0 }}
+          enter={{ opacity: 1 }}
+          leave={{ opacity: 0 }}
+        >
+          {this.state.showImage
+            ? ({ opacity }) => (
+                <BackgroundImageWrapper>
+                  <animated.img
+                    src={this.state.backgroundImage}
+                    style={{ opacity }}
+                  />
+                </BackgroundImageWrapper>
+              )
+            : () => null}
+        </Transition>
       </div>
     );
   }
