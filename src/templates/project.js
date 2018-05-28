@@ -10,32 +10,90 @@ import TagList from '../components/TagList';
 import NavbarWithLinks from '../components/NavbarWithLinks';
 
 const Section = styled.div`
-  padding-top: 80px;
-  text-align: center;
+  padding-top: 140px;
+  width: 70%;
+  margin: auto;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 `;
 
 const Title = styled.h1`
   font-size: 50px;
-  font-weight: 300;
-  padding-bottom: 12px;
+  font-weight: 500;
+  padding-bottom: 20px;
+`;
+
+const SmallTitle = styled.div`
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 10px;
 `;
 
 const Year = styled.div`
-  font-size: 18px;
   padding-top: 20px;
-  padding-bottom: 20px;
-  font-weight: 300;
+
+  @media (max-width: 768px) {
+    padding-top: 0px;
+    padding-right: 65px;
+  }
+
+  @media (max-width: 480px) {
+    padding-right: 60px;
+  }
+`;
+
+const YearText = styled.div`
+  font-size: 15px;
+  font-weight: 400;
+`;
+
+const LeftContent = styled.div`
+  width: 75%;
+  padding-right: 45px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`;
+
+const RightContent = styled.div`
+  width: 25%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+`;
+
+const ImgSection = styled(Section)`
+  padding-top: 0;
+  @media (max-width: 480px) {
+    width: 100%;
+    padding: 0;
+  }
+`;
+
+const ImgWrapper = styled.div`
+  width: 100%;
+  margin-bottom: 30px;
 `;
 
 const Img = styled.img`
-  max-width: 1100px;
-  width: 90%;
+  width: 100%;
 `;
 
 const ContentWrapper = styled.div`
   margin: auto;
   padding-top: 30px;
   padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap-reverse;
 `;
 
 export const ProjectTemplate = ({
@@ -45,19 +103,46 @@ export const ProjectTemplate = ({
   tags,
   title,
   helmet,
+  galleryImages,
+  heroImage,
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
-    <Section>
-      {helmet || ''}
-      <Year>{date}</Year>
-      <Title>{title}</Title>
-      {tags && tags.length && <TagList tags={tags} />}
-      <ContentWrapper>
-        <PostContent content={content} className="post"/>
-      </ContentWrapper>
-    </Section>
+    <Fragment>
+      <Section>
+        {helmet || ''}
+        <Title>{title}</Title>
+        <ContentWrapper>
+          <LeftContent>
+            <SmallTitle>story</SmallTitle>
+            <PostContent content={content} className="post" />
+          </LeftContent>
+          <RightContent>
+            <div>
+              <SmallTitle>type</SmallTitle>
+              {tags && tags.length && <TagList tags={tags} />}
+            </div>
+            <Year>
+              <SmallTitle>Year</SmallTitle>
+              <YearText>{date}</YearText>
+            </Year>
+          </RightContent>
+        </ContentWrapper>
+      </Section>
+      <ImgSection>
+        <ImgWrapper>
+          <Img src={heroImage} />
+        </ImgWrapper>
+        {galleryImages &&
+          galleryImages.length > 0 &&
+          galleryImages.map(img => (
+            <ImgWrapper>
+              <Img src={img} />
+            </ImgWrapper>
+          ))}
+      </ImgSection>
+    </Fragment>
   );
 };
 
@@ -67,6 +152,8 @@ ProjectTemplate.propTypes = {
   title: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet),
   date: PropTypes.string,
+  heroImage: PropTypes.string,
+  galleryImages: PropTypes.array,
 };
 
 const BlogPost = ({ data }) => {
@@ -76,6 +163,8 @@ const BlogPost = ({ data }) => {
       <NavbarWithLinks />
       <ProjectTemplate
         date={post.frontmatter.date}
+        heroImage={post.frontmatter.heroImage}
+        galleryImages={post.frontmatter.galleryImages}
         content={post.html}
         contentComponent={HTMLContent}
         helmet={
@@ -105,6 +194,8 @@ export const pageQuery = graphql`
         date(formatString: "YYYY")
         title
         tags
+        heroImage
+        galleryImages
       }
     }
   }

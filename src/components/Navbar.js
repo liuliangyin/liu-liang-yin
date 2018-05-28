@@ -7,8 +7,8 @@ import github from '../img/github-icon.svg';
 
 const Root = styled.nav`
   position: absolute;
-  top: 30px;
-  left: 50px;
+  top: 60px;
+  left: 90px;
   z-index: 1;
 
   ${({ inline }) =>
@@ -39,12 +39,8 @@ const MenuWrapper = styled.div`
 `;
 
 const flash = keyframes`
-  0% {opacity: 0;}
-  20% {opacity: 1;}
-  40% {opacity: 0;}
-  60% {opacity: 1;}
-  80% {opacity: 0;}
-  100% {opacity: 1;}
+ from {transform: rotateX(-180deg)}
+  to {transform: rotateX(0deg)}
 `;
 
 export const NavItem = styled.div`
@@ -59,6 +55,7 @@ export const NavItem = styled.div`
 
   :hover {
     animation: ${flash} 250ms;
+    animation-duration: 250ms;
   }
 `;
 
@@ -66,7 +63,7 @@ class Navbar extends PureComponent {
   state = {};
   render() {
     return (
-      <Root inline={this.props.inline}>
+      <Root inline={this.props.inline} {...this.props}>
         <Link to="/">
           <LogoWithName />
         </Link>

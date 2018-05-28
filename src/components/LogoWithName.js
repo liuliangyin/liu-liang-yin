@@ -18,7 +18,7 @@ const Logo = styled.div`
 const Name = styled.div`
   color: #000;
   padding-left: 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 `;
 

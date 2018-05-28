@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import { Transition, animated } from 'react-spring';
@@ -10,33 +10,60 @@ import { AboutPageTemplate } from '../templates/about-page';
 
 const Content = styled.div`
   position: absolute;
-  left: 470px;
+  right: 100px;
   top: 150px;
+
+  @media (max-width: 1024px) {
+    max-width: 330px;
+    right: 130px;
+  }
+
+  @media (max-width: 768px) {
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+    ${'' /* max-width: 540px; */}
+  }
+
+  @media (max-width: 480px) {
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: unset;
+  }
 `;
 
 const SubMenu = styled.ul`
   position: absolute;
-  left: 255px;
-  top: 120px;
+  left: 216px;
+  top: 150px;
+`;
+
+const flash = keyframes`
+ from {transform: rotateX(-180deg)}
+  to {transform: rotateX(0deg)}
 `;
 
 const ProjectLi = styled.li`
   line-height: 17px;
-  height: 17px;
-  margin-bottom: 15px;
+  padding: 7.5px;
   cursor: pointer;
+
+  :hover {
+    animation: ${flash} 250ms;
+    animation-duration: 250ms;
+  }
 `;
 
 const ProjectYear = styled.div`
   display: inline-block;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
   color: #000;
 `;
 
 const ProjectName = styled.div`
   display: inline-block;
-  font-size: 12px;
+  font-size: 13px;
   padding-left: 10px;
   color: #000;
 `;
@@ -46,10 +73,15 @@ const BackgroundImageWrapper = styled.div`
   right: 0;
   bottom: 0;
   z-index: -1;
+  top: 0;
+  left: 330px;
 
   @media (max-width: 900px) {
     left: 0;
     top: 0;
+  }
+  @media (max-width: 480px) {
+    display: none;
   }
 `;
 
@@ -85,7 +117,7 @@ export default class IndexPage extends React.Component {
 
     return (
       <div>
-        <Navbar>
+        <Navbar className={activeIndex === 'about' && 'navbar'}>
           <NavItem
             onClick={() => this.onActiveNavItem('project')}
             active={activeIndex === 'project'}

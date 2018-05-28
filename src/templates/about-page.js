@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap-reverse;
   align-items: flex-end;
+  justify-content: center;
 `;
 
 const Title = styled.div`
@@ -24,6 +25,7 @@ const Image = styled.img`
   width: 260px;
   object-fit: contain;
   box-shadow: none;
+  margin-bottom: 20px;
 `;
 
 export const AboutPageTemplate = ({
