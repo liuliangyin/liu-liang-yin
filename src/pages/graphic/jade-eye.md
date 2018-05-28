@@ -1,7 +1,7 @@
 ---
 templateKey: graphic
 title: Jade Eye
-date: '2018-05-28'
+date: '2018-05-24'
 tags:
   - CD Cover Design / Graphic Design
 heroImage: /img/cd.png
