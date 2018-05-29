@@ -4,7 +4,7 @@ title: AFLA STAR ACADEMY Official Website
 date: '2018-05-29'
 tags:
   - Web Design
-heroImage: /img/minimalist-showcase-project-presentation.png
+heroImage: /img/techandall-apple-mockup3.png
 ---
 AFLA STAR ACADEMY 是由阿爾發音樂ALFA MUSIC直接設立的「全流行藝術學校」。由年代集團、壹電視、阿爾發音樂股份有限公司、好樂迪、錢櫃系統，共同創立的流行藝術學院。培訓教育全方位藝能明星，學院聘請由韓國、上海、馬來西亞、加拿大專業優質師資，為想進入演藝演出的學員打造完整的星光演藝學院。
 
