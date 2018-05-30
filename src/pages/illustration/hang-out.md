@@ -4,16 +4,14 @@ title: Hang Out
 date: '2018-05-30'
 tags:
   - Illustration / Animation
-heroImage: /img/sunbeach-infinite.gif
+heroImage: /img/roadtrip-infinite-copy.gif
 galleryImages:
   - /img/roadtrip-infinite.gif
   - /img/sunbeach-infinite.gif
   - /img/under-the-sea-infinite.gif
   - /img/moutainmoutains-infinite.gif
 ---
-該出門走走摟！四格漫畫形式的動畫創作。
-
-
+四格漫畫形式的動畫創作。
 
 Time to have fun!
 
