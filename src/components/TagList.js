@@ -11,23 +11,27 @@ const Tag = styled.li`
   font-weight: 400;
   position: relative;
   line-height: 30px;
+
+  @media (max-width: 480px) {
+    font-size: 16px;
+  }
   }
 `;
 
 const TagList = ({ tags }) => (
   <ul>
     {tags.map(tag => (
-    <Tag key={tag + `tag`}>
-      {/* <Link to={`/tags/${kebabCase(tag)}/`}> */}
-      {tag}
-      {/* </Link> */}
-    </Tag>
+      <Tag key={tag + `tag`}>
+        {/* <Link to={`/tags/${kebabCase(tag)}/`}> */}
+        {tag}
+        {/* </Link> */}
+      </Tag>
     ))}
   </ul>
 );
 
-TagList.PropTypes = {
-  tags: PropTypes.arrayOf(PropTypes.string),
+TagList.propTypes = {
+  tags: PropTypes.array,
 };
 
 export default TagList;

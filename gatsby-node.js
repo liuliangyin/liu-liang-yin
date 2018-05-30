@@ -9,6 +9,16 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     {
       allMarkdownRemark(limit: 1000) {
         edges {
+          next {
+            fields {
+              slug
+            }
+          }
+          previous {
+            fields {
+              slug
+            }
+          }
           node {
             id
             fields {
@@ -29,8 +39,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
-
-    posts.forEach(edge => {
+    posts.forEach((edge, index) => {
       const id = edge.node.id
       createPage({
         path: edge.node.fields.slug,
@@ -41,6 +50,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
+          next: edge.next ? edge.next.fields.slug : null,
+          prev: edge.previous ? edge.previous.fields.slug : null,
         },
       })
     })

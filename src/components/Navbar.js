@@ -34,7 +34,13 @@ const MenuWrapper = styled.div`
     inline &&
     css`
       padding-top: 0;
-      display: flex;
+      #menu-item {
+        display: flex;
+
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
     `};
 `;
 
@@ -68,7 +74,7 @@ class Navbar extends PureComponent {
           <LogoWithName />
         </Link>
         <MenuWrapper inline={this.props.inline}>
-          {this.props.children}
+          <div id="menu-item">{this.props.children}</div>
         </MenuWrapper>
       </Root>
     );

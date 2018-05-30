@@ -2,7 +2,6 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
-import { Transition, animated } from 'react-spring';
 
 import Navbar, { NavItem } from '../components/Navbar';
 import { HTMLContent } from '../components/Content';
@@ -22,7 +21,7 @@ const Content = styled.div`
     right: unset;
     left: 50%;
     transform: translateX(-50%);
-    ${'' /* max-width: 540px; */}
+    ${'' /* max-width: 540px; */};
   }
 
   @media (max-width: 480px) {
@@ -180,28 +179,18 @@ export default class IndexPage extends React.Component {
               />
             </Content>
           )}
-        <Transition
-          native
-          from={{ opacity: 0 }}
-          enter={{ opacity: 1 }}
-          leave={{ opacity: 0 }}
-        >
-          {this.state.showImage
-            ? ({ opacity }) => (
-                <BackgroundImageWrapper>
-                  <animated.img
-                    src={this.state.backgroundImage}
-                    style={{
-                      opacity,
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                    }}
-                  />
-                </BackgroundImageWrapper>
-              )
-            : () => null}
-        </Transition>
+        {this.state.showImage && (
+          <BackgroundImageWrapper>
+            <img
+              src={this.state.backgroundImage}
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+              }}
+            />
+          </BackgroundImageWrapper>
+        )}
       </div>
     );
   }
