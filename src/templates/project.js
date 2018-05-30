@@ -248,10 +248,9 @@ ProjectTemplate.propTypes = {
   galleryImages: PropTypes.array,
 };
 
-const BlogPost = ({ data, pageResources }) => {
+const BlogPost = ({ data, pathContext }) => {
 
   const { markdownRemark: post } = data;
-  const { json: { pathContext }} = pageResources;
   if (pathContext.prev === '/about/') {
     pathContext.prev = null;
   }
