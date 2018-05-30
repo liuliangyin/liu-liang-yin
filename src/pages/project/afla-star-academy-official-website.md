@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: AFLA STAR ACADEMY Official Website
-date: '2018-05-29'
+date: '2018-05-25'
 tags:
   - Web Design
 heroImage: /img/techandall-apple-mockup3.png
