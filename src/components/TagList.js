@@ -5,20 +5,12 @@ import Link from 'gatsby-link';
 import { kebabCase } from 'lodash';
 
 const Tag = styled.li`
-  display: inline-block;
-  font-size: 18px;
-  color: #777777;
-  font-weight: 300;
+  display: block;
+  font-size: 15px;
+  color: #000;
+  font-weight: 400;
   position: relative;
-
-  :not(:first-child) {
-    margin-left: 30px;
-
-    &:before {
-      position: absolute;
-      content: "/";
-      left: -17px;
-    }
+  line-height: 30px;
   }
 `;
 
@@ -26,7 +18,9 @@ const TagList = ({ tags }) => (
   <ul>
     {tags.map(tag => (
     <Tag key={tag + `tag`}>
-      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+      {/* <Link to={`/tags/${kebabCase(tag)}/`}> */}
+      {tag}
+      {/* </Link> */}
     </Tag>
     ))}
   </ul>

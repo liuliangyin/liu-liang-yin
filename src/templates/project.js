@@ -75,7 +75,7 @@ const ImgSection = styled(Section)`
   padding-top: 0;
   @media (max-width: 480px) {
     width: 100%;
-    padding: 0;
+    padding: 0!important;
   }
 `;
 
@@ -115,12 +115,12 @@ export const ProjectTemplate = ({
         <Title>{title}</Title>
         <ContentWrapper>
           <LeftContent>
-            <SmallTitle>story</SmallTitle>
+            <SmallTitle>Story</SmallTitle>
             <PostContent content={content} className="post" />
           </LeftContent>
           <RightContent>
             <div>
-              <SmallTitle>type</SmallTitle>
+              <SmallTitle>Type</SmallTitle>
               {tags && tags.length && <TagList tags={tags} />}
             </div>
             <Year>
