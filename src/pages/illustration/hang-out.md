@@ -6,10 +6,7 @@ tags:
   - Illustration / Animation
 heroImage: /img/roadtrip-infinite-copy.gif
 galleryImages:
-  - /img/roadtrip-infinite.gif
-  - /img/sunbeach-infinite.gif
-  - /img/under-the-sea-infinite.gif
-  - /img/moutainmoutains-infinite.gif
+  - /img/roadtrip-infinite-copy.gif
 ---
 四格漫畫形式的動畫創作。
 
