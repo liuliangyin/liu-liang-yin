@@ -4,7 +4,7 @@ title: Hang Out
 date: '2018-05-30'
 tags:
   - Illustration / Animation
-heroImage: /img/roadtrip-infinite-copy.gif
+heroImage: /img/sunbeach-infinite-copy.gif
 galleryImages:
   - /img/roadtrip-infinite-copy.gif
   - /img/sunbeach-infinite-copy.gif
@@ -17,12 +17,10 @@ Time to have fun!
 
 Created with squared form, like comics. 
 
-01 Roadtrip
+01 [Roadtrip](<https://liuliangyin.github.io/roadtrip/ >)
 
-02 Lying on Beach
+02 [Lying on Beach](<https://liuliangyin.github.io/Beach/ >)
 
-03 Under the Sea
+03 [Under the Sea](<https://liuliangyin.github.io/underthesea/ >)
 
-04 Hide in Moutains
-
-https://liuliangyin.github.io/roadtrip/ https://liuliangyin.github.io/Beach/ https://liuliangyin.github.io/underthesea/ https://liuliangyin.github.io/moutains/
+04 [Hide in Mountains](https://liuliangyin.github.io/moutains/)
