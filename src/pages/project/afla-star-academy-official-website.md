@@ -4,7 +4,7 @@ title: AFLA STAR ACADEMY Official Website
 date: '2018-05-25'
 tags:
   - Web Design
-heroImage: /img/afla-star_cover.png
+heroImage: ../images/afla-star_cover.png
 galleryImages:
   - /img/afla-star_cover.png
   - /img/techandall-apple-mockup3.png
