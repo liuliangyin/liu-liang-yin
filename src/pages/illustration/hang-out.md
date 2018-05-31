@@ -7,6 +7,9 @@ tags:
 heroImage: /img/roadtrip-infinite-copy.gif
 galleryImages:
   - /img/roadtrip-infinite-copy.gif
+  - /img/sunbeach-infinite-copy.gif
+  - /img/under-the-sea-infinite-copy.gif
+  - /img/moutainmoutains-infinite-copy.gif
 ---
 四格漫畫形式的動畫創作。
 
