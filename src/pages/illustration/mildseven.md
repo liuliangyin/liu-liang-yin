@@ -6,8 +6,8 @@ tags:
   - Illustration
 heroImage: /img/sevenstar_cover.png
 galleryImages:
-  - /img/sevenstar_01.png
-  - /img/sevenstar_02.png
+  - /img/sevenstar_001.png
+  - /img/sevenstar_002.png
 ---
 Cigarette "MILDSEVEN"
 
