@@ -1,15 +1,24 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, Fragment } from 'react';
 import styled, { css, keyframes } from 'styled-components';
 import Link from 'gatsby-link';
 
 import LogoWithName from './LogoWithName';
-import github from '../img/github-icon.svg';
+import Burger from './Burger';
 
 const Root = styled.nav`
   position: absolute;
   top: 60px;
   left: 90px;
   z-index: 1;
+
+  ${({ hide }) =>
+    hide &&
+    css`
+      display: none;
+    `} @media (max-width: 768px) {
+    top: 33px;
+    left: 40px;
+  }
 
   ${({ inline }) =>
     inline &&
@@ -25,11 +34,27 @@ const Root = styled.nav`
       padding-right: 50px;
       justify-content: space-between;
       background: #fdfdfd;
+
+      @media (max-width: 768px) {
+        top: 0;
+        left: 0;
+      }
     `};
 `;
 
 const MenuWrapper = styled.div`
   padding-top: 70px;
+
+  @media (max-width: 768px) {
+    padding-left: 35px;
+  }
+
+  ${({ hide }) =>
+    hide &&
+    css`
+      display: none;
+    `};
+
   ${({ inline }) =>
     inline &&
     css`
@@ -59,24 +84,53 @@ export const NavItem = styled.div`
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 
+  @media (max-width: 768px) {
+    font-size: 18px;
+    padding-top: 12.5px;
+  }
+
   :hover {
     animation: ${flash} 250ms;
     animation-duration: 250ms;
   }
 `;
 
+const Overlay = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  z-index: 9;
+`;
+
 class Navbar extends PureComponent {
-  state = {};
+  state = {
+    menuShow: false,
+  };
   render() {
     return (
-      <Root inline={this.props.inline} {...this.props}>
-        <Link to="/">
-          <LogoWithName />
-        </Link>
-        <MenuWrapper inline={this.props.inline}>
-          <div id="menu-item">{this.props.children}</div>
-        </MenuWrapper>
-      </Root>
+      <Fragment>
+        <Root inline={this.props.inline}>
+          <Link to="/">
+            <LogoWithName />
+          </Link>
+          <MenuWrapper
+            inline={this.props.inline}
+            hide={this.props.hide}
+          >
+            <div id="menu-item">{this.props.children}</div>
+          </MenuWrapper>
+        </Root>
+        <Burger
+          onClick={() => {
+            this.setState({ menuShow: !this.state.menuShow });
+          }}
+          show={this.state.menuShow}
+        />
+        {this.state.menuShow && <Overlay />}
+      </Fragment>
     );
   }
 }

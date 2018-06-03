@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
+import logo from '../img/Asset 8@2x copy.png';
 
 const Root = styled.div`
   display: flex;
@@ -7,12 +8,21 @@ const Root = styled.div`
   align-items: center;
 `;
 
-const Logo = styled.div`
-  background: #000;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  flex: 1;
+// const Logo = styled.div`
+//   background: #000;
+//   width: 20px;
+//   height: 20px;
+//   border-radius: 50%;
+//   flex: 1;
+// `;
+const Logo = styled.img`
+  width: 21px;
+  height: 21px;
+
+  @media(max-width: 480px) {
+    width: 24px;
+    height: 24px;
+  }
 `;
 
 const Name = styled.div`
@@ -26,8 +36,9 @@ class LogoWithName extends PureComponent {
   render() {
     return (
       <Root>
-        <Logo />
-        <Name>Liu Liang Yin</Name>
+        {/* <Logo /> */}
+        <Logo src={logo}/>
+        <Name>LIU LIANG YIN</Name>
       </Root>
     );
   }

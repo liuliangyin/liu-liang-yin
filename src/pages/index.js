@@ -1,10 +1,11 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
 import Navbar, { NavItem } from '../components/Navbar';
 import { HTMLContent } from '../components/Content';
+import Footer from '../components/Footer';
 import { AboutPageTemplate } from '../templates/about-page';
 
 const Content = styled.div`
@@ -35,6 +36,13 @@ const SubMenu = styled.ul`
   position: absolute;
   left: 216px;
   top: 150px;
+
+  ${({ isPadSize }) =>
+    isPadSize &&
+    css`
+      top: 120px;
+      left: 75px;
+    `};
 `;
 
 const flash = keyframes`
@@ -47,6 +55,10 @@ const ProjectLi = styled.li`
   padding: 7.5px;
   cursor: pointer;
 
+  @media (max-width: 768px) {
+    padding-top: 12.5px;
+  }
+
   :hover {
     animation: ${flash} 250ms;
     animation-duration: 250ms;
@@ -58,6 +70,10 @@ const ProjectYear = styled.div`
   font-size: 12px;
   font-weight: 300;
   color: #000;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 const ProjectName = styled.div`
@@ -65,6 +81,10 @@ const ProjectName = styled.div`
   font-size: 13px;
   padding-left: 10px;
   color: #000;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
 `;
 
 const BackgroundImageWrapper = styled.div`
@@ -79,7 +99,7 @@ const BackgroundImageWrapper = styled.div`
     left: 0;
     top: 0;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `;
@@ -89,6 +109,28 @@ export default class IndexPage extends React.Component {
     activeIndex: this.props.location.state || 'project',
     backgroundImage: null,
     showImage: false,
+    isPadSize: false,
+  };
+
+  componentDidMount() {
+    this.updateMenu();
+    window.addEventListener('resize', this.updateMenu);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateMenu);
+  }
+
+  updateMenu = () => {
+    if (this.wrapper.offsetWidth < 768) {
+      if (!this.state.isPadSize) {
+        this.setState({ isPadSize: true, activeIndex: null });
+      }
+    } else {
+      if (this.state.isPadSize) {
+        this.setState({ isPadSize: false });
+      }
+    }
   };
 
   onActiveNavItem = activeIndex => {
@@ -112,11 +154,19 @@ export default class IndexPage extends React.Component {
 
   render() {
     const { data } = this.props;
-    const { activeIndex } = this.state;
+    const { activeIndex, isPadSize } = this.state;
 
     return (
-      <div>
-        <Navbar className={activeIndex === 'about' && 'navbar'}>
+      <div
+        ref={s => {
+          this.wrapper = s;
+        }}
+        style={{ width: '100vw', height: '100vh' }}
+      >
+        <Navbar
+          className={activeIndex === 'about' ? 'navbar' : ''}
+          hide={isPadSize && activeIndex}
+        >
           <NavItem
             onClick={() => this.onActiveNavItem('project')}
             active={activeIndex === 'project'}
@@ -144,7 +194,7 @@ export default class IndexPage extends React.Component {
         </Navbar>
         {activeIndex &&
           activeIndex !== 'about' && (
-            <SubMenu>
+            <SubMenu isPadSize={isPadSize}>
               {data[activeIndex] &&
                 data[activeIndex].edges.map(({ node: post }) => (
                   <ProjectLi
@@ -191,6 +241,7 @@ export default class IndexPage extends React.Component {
             />
           </BackgroundImageWrapper>
         )}
+        <Footer />
       </div>
     );
   }

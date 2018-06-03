@@ -5,7 +5,7 @@ import Content, { HTMLContent } from '../components/Content';
 
 const Section = styled.div`
   max-width: 620px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 `;
 
 const Wrapper = styled.div`

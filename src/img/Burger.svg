@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="12px" viewBox="0 0 21 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Burger</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.99671328,10.875 C5.58249972,10.875 5.24671328,10.5392136 5.24671328,10.125 C5.24671328,9.71078644 5.58249972,9.375 5.99671328,9.375 L24.7467133,9.375 C25.1609268,9.375 25.4967133,9.71078644 25.4967133,10.125 C25.4967133,10.5392136 25.1609268,10.875 24.7467133,10.875 L5.99671328,10.875 Z M5.99671328,20.625 C5.58249972,20.625 5.24671328,20.2892136 5.24671328,19.875 C5.24671328,19.4607864 5.58249972,19.125 5.99671328,19.125 L24.7467133,19.125 C25.1609268,19.125 25.4967133,19.4607864 25.4967133,19.875 C25.4967133,20.2892136 25.1609268,20.625 24.7467133,20.625 L5.99671328,20.625 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-/-Mobile-header" transform="translate(-310.000000, -39.000000)">
+            <g id="Icon-/-Burger" transform="translate(305.000000, 30.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Color-/-#000000" mask="url(#mask-2)" fill="#000000" fill-rule="evenodd">
+                    <rect id="Color-/-#ffffff" x="0" y="0" width="30" height="30"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

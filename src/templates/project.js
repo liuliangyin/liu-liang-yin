@@ -114,7 +114,7 @@ const ContentWrapper = styled.div`
 `;
 
 const Bottom = styled.div`
-  ${'' /* bottom: 50px; */} display: flex;
+  display: flex;
   justify-content: center;
   font-weight: 600;
   font-size: 18px;
@@ -122,19 +122,29 @@ const Bottom = styled.div`
 `;
 
 const PrevButton = styled.div`
-  margin-right: 17px;
+  padding-right: 17px;
   cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 
   :before {
     content: '< ';
   }
+
+  :hover {
+    transform: translateX(-5px);
+  }
 `;
 
 const NextButton = styled.div`
-  margin-left: 17px;
+  padding-left: 17px;
   cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
   :after {
     content: ' >';
+  }
+  :hover {
+    transform: translateX(5px);
   }
 `;
 
