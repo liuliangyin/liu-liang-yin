@@ -6,6 +6,7 @@ tags:
   - iOS / Interaction & UI Design  / Visual Design
 heroImage: /img/simple-mockups-copy.jpg
 galleryImages:
-  - /img/gradientbg.png
+  - /img/pinco-app-gradientbg.png
+  - /img/pinco_rwd_devices.png
 ---
 Pinco Pinco
