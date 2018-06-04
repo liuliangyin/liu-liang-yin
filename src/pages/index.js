@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { keyframes, css } from 'styled-components';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
+import { Transition, animated, interpolate } from 'react-spring';
 
 import Navbar, { NavItem } from '../components/Navbar';
 import { HTMLContent } from '../components/Content';
@@ -134,9 +135,11 @@ export default class IndexPage extends React.Component {
   };
 
   onActiveNavItem = activeIndex => {
-    this.setState({
-      activeIndex,
-    });
+    if (this.state.activeIndex !== activeIndex) {
+      this.setState({
+        activeIndex,
+      });
+    }
   };
 
   onChangeBackground = image => {
@@ -166,6 +169,7 @@ export default class IndexPage extends React.Component {
         <Navbar
           className={activeIndex === 'about' ? 'navbar' : ''}
           hide={isPadSize && activeIndex}
+          onActiveNavItem={this.onActiveNavItem}
         >
           <NavItem
             onClick={() => this.onActiveNavItem('project')}
@@ -186,49 +190,89 @@ export default class IndexPage extends React.Component {
             Illustration
           </NavItem>
           <NavItem
-            onClick={() => this.onActiveNavItem('about')}
+            onClick={() => {
+              this.onActiveNavItem('about');
+            }}
             active={activeIndex === 'about'}
           >
             About
           </NavItem>
         </Navbar>
-        {activeIndex &&
-          activeIndex !== 'about' && (
-            <SubMenu isPadSize={isPadSize}>
-              {data[activeIndex] &&
-                data[activeIndex].edges.map(({ node: post }) => (
-                  <ProjectLi
-                    key={post.id}
-                    onMouseEnter={() =>
-                      this.onChangeBackground(
-                        post.frontmatter.heroImage,
-                      )
-                    }
-                    onMouseLeave={() => this.onChangeBackground()}
-                  >
-                    <Link to={post.fields.slug}>
-                      <ProjectYear>
-                        {post.frontmatter.date}
-                      </ProjectYear>
-                      <ProjectName>
-                        {post.frontmatter.title}
-                      </ProjectName>
-                    </Link>
-                  </ProjectLi>
-                ))}
-            </SubMenu>
-          )}
-        {activeIndex &&
-          activeIndex === 'about' && (
-            <Content>
-              <AboutPageTemplate
-                contentComponent={HTMLContent}
-                title={data.about.frontmatter.title}
-                image={data.about.frontmatter.image}
-                content={data.about.html}
-              />
-            </Content>
-          )}
+        <Transition
+          from={{ x: 100 }}
+          enter={{ x: 0 }}
+          leave={{ x: 100 }}
+          native
+        >
+          {activeIndex && activeIndex !== 'about'
+            ? ({ x }) => (
+                <animated.div
+                  style={{
+                    transform: interpolate(
+                      x,
+                      x => `translateX(${x}%)`,
+                    ),
+                  }}
+                >
+                  <SubMenu isPadSize={isPadSize}>
+                    {data[activeIndex] &&
+                      data[activeIndex].edges.map(
+                        ({ node: post }) => (
+                          <ProjectLi
+                            key={post.id}
+                            onMouseEnter={() =>
+                              this.onChangeBackground(
+                                post.frontmatter.heroImage,
+                              )
+                            }
+                            onMouseLeave={() =>
+                              this.onChangeBackground()
+                            }
+                          >
+                            <Link to={post.fields.slug}>
+                              <ProjectYear>
+                                {post.frontmatter.date}
+                              </ProjectYear>
+                              <ProjectName>
+                                {post.frontmatter.title}
+                              </ProjectName>
+                            </Link>
+                          </ProjectLi>
+                        ),
+                      )}
+                  </SubMenu>
+                </animated.div>
+              )
+            : () => null}
+        </Transition>
+        <Transition
+          from={{ x: 100 }}
+          enter={{ x: 0 }}
+          leave={{ x: 100 }}
+          native
+        >
+          {activeIndex && activeIndex === 'about'
+            ? ({ x }) => (
+                <animated.div
+                  style={{
+                    transform: interpolate(
+                      x,
+                      x => `translateX(${x}%)`,
+                    ),
+                  }}
+                >
+                  <Content>
+                    <AboutPageTemplate
+                      contentComponent={HTMLContent}
+                      title={data.about.frontmatter.title}
+                      image={data.about.frontmatter.image}
+                      content={data.about.html}
+                    />
+                  </Content>
+                </animated.div>
+              )
+            : () => null}
+        </Transition>
         {this.state.showImage && (
           <BackgroundImageWrapper>
             <img

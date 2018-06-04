@@ -6,6 +6,7 @@ const Root = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  cursor: pointer;
 `;
 
 // const Logo = styled.div`
@@ -35,7 +36,7 @@ const Name = styled.div`
 class LogoWithName extends PureComponent {
   render() {
     return (
-      <Root>
+      <Root onClick={() => this.props.onClick()}>
         {/* <Logo /> */}
         <Logo src={logo}/>
         <Name>LIU LIANG YIN</Name>

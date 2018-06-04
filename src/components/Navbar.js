@@ -1,6 +1,7 @@
 import React, { PureComponent, Fragment } from 'react';
 import styled, { css, keyframes } from 'styled-components';
-import Link from 'gatsby-link';
+import { Transition, animated, interpolate } from 'react-spring';
+import Link, { navigateTo } from 'gatsby-link';
 
 import LogoWithName from './LogoWithName';
 import Burger from './Burger';
@@ -44,6 +45,7 @@ const Root = styled.nav`
 
 const MenuWrapper = styled.div`
   padding-top: 70px;
+  transition: all 0.3s ease-in;
 
   @media (max-width: 768px) {
     padding-left: 35px;
@@ -52,7 +54,7 @@ const MenuWrapper = styled.div`
   ${({ hide }) =>
     hide &&
     css`
-      display: none;
+      transform: translateX(-200%);
     `};
 
   ${({ inline }) =>
@@ -77,21 +79,34 @@ const flash = keyframes`
 export const NavItem = styled.div`
   font-size: 14px;
   font-weight: 500;
-  color: #000;
+  color: ${props => (props.overlay ? 'white' : '#000')};
   opacity: ${props => (props.active ? 1 : 0.3)};
   padding-top: 6px;
   padding-bottom: 6px;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 
+  ${({ overlay }) =>
+    overlay
+      ? css`
+          opacity: 1;
+          padding-top: 25px;
+          padding-bottom: 25px;
+
+          :hover {
+            opacity: 0.8;
+          }
+        `
+      : css`
+          :hover {
+            animation: ${flash} 250ms;
+            animation-duration: 250ms;
+          }
+        `};
+
   @media (max-width: 768px) {
     font-size: 18px;
     padding-top: 12.5px;
-  }
-
-  :hover {
-    animation: ${flash} 250ms;
-    animation-duration: 250ms;
   }
 `;
 
@@ -103,19 +118,42 @@ const Overlay = styled.div`
   right: 0;
   background: #000;
   z-index: 9;
+  opacity: 0.95;
+`;
+
+const Menu = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  z-index: 12;
+  margin: auto;
 `;
 
 class Navbar extends PureComponent {
   state = {
     menuShow: false,
   };
+
+  onHomeClick = () => {
+    if (this.props.onActiveNavItem) {
+      this.props.onActiveNavItem(null);
+    } else {
+      navigateTo('/')
+    }
+    this.setState({
+      menuShow: false,
+    });
+  };
+
   render() {
     return (
       <Fragment>
         <Root inline={this.props.inline}>
-          <Link to="/">
-            <LogoWithName />
-          </Link>
+          <LogoWithName onClick={this.onHomeClick} />
           <MenuWrapper
             inline={this.props.inline}
             hide={this.props.hide}
@@ -129,7 +167,50 @@ class Navbar extends PureComponent {
           }}
           show={this.state.menuShow}
         />
-        {this.state.menuShow && <Overlay />}
+        <Transition
+          from={{ x: 100 }}
+          enter={{ x: 0 }}
+          leave={{ x: 100 }}
+          native
+        >
+          {this.state.menuShow
+            ? ({ x }) => (
+                <animated.div
+                  style={{
+                    position: 'relative',
+                    width: '100%',
+                    height: '100%',
+                    zIndex: 9,
+                    transform: interpolate(
+                      x,
+                      x => `translateX(${x}%)`,
+                    ),
+                  }}
+                >
+                  <Overlay />
+                  <Menu>
+                    <NavItem
+                      overlay
+                      onClick={() => this.onHomeClick()}
+                    >
+                      Home
+                    </NavItem>
+                    {React.Children.map(this.props.children, child =>
+                      React.cloneElement(child, {
+                        overlay: true,
+                        onClick: () => {
+                          this.setState({
+                            menuShow: false,
+                          });
+                          child.props.onClick();
+                        },
+                      }),
+                    )}
+                  </Menu>
+                </animated.div>
+              )
+            : () => null}
+        </Transition>
       </Fragment>
     );
   }
