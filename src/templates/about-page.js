@@ -5,7 +5,8 @@ import Content, { HTMLContent } from '../components/Content';
 
 const Section = styled.div`
   max-width: 620px;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
+  height: 100%;
 `;
 
 const Wrapper = styled.div`
@@ -17,7 +18,7 @@ const Wrapper = styled.div`
 
 const Title = styled.div`
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
   padding-bottom: 30px;
   text-align: center;
 `;

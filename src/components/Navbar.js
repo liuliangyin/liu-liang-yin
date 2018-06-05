@@ -17,8 +17,8 @@ const Root = styled.nav`
     css`
       display: none;
     `} @media (max-width: 768px) {
-    top: 33px;
-    left: 40px;
+    top: 30px;
+    left: 50px;
   }
 
   ${({ inline }) =>
@@ -100,7 +100,9 @@ export const NavItem = styled.div`
 
   @media (max-width: 768px) {
     font-size: 18px;
-    padding-top: 12.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 1;
   }
 `;
 
@@ -157,7 +159,9 @@ class Navbar extends PureComponent {
         </Root>
         <Burger
           onClick={() => {
-            this.props.onActiveNavItem(null);
+            if (this.props.onActiveNavItem) {
+              this.props.onActiveNavItem(null);
+            }
             this.setState({ menuShow: !this.state.menuShow });
           }}
           show={this.state.menuShow}
@@ -172,7 +176,7 @@ class Navbar extends PureComponent {
             ? ({ x }) => (
                 <animated.div
                   style={{
-                    position: 'relative',
+                    position: 'fixed',
                     width: '100%',
                     height: '100%',
                     zIndex: 9,
@@ -197,7 +201,9 @@ class Navbar extends PureComponent {
                           this.setState({
                             menuShow: false,
                           });
-                          child.props.onClick();
+                          if (child.props.onClick) {
+                            child.props.onClick();
+                          }
                         },
                       }),
                     )}

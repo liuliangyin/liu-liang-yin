@@ -2,29 +2,25 @@ import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import Link from 'gatsby-link';
 
-import Navbar, { NavItem as Item } from './Navbar';
-import Burger from './Burger';
-
-const NavItem = styled(Item)`
-  margin-left: 35px;
-`;
+import Navbar, { NavItem } from './Navbar';
 
 class NavbarWithLinks extends PureComponent {
-  state = {};
   render() {
+    const { overlay } = this.props;
+
     return (
-      <Navbar inline>
+      <Navbar inline onActiveNavItem={this.props.onToggleBurger}>
           <Link to={{ pathname:"/", state: "project" }}>
-            <NavItem>Project</NavItem>
+            <NavItem overlay={overlay} style={{ marginLeft: overlay ? 0 : '35px'}}>Project</NavItem>
           </Link>
           <Link to={{ pathname: "/", state: "graphic"}}>
-            <NavItem>Graphic</NavItem>
+            <NavItem overlay={overlay} style={{ marginLeft: overlay ? 0 : '35px'}}>Graphic</NavItem>
           </Link>
           <Link to={{ pathname: "/", state: "illustration"}}>
-            <NavItem>Illustration</NavItem>
+            <NavItem overlay={overlay} style={{ marginLeft: overlay ? 0 : '35px'}}>Illustration</NavItem>
           </Link>
           <Link to={{ pathname: "/", state: "about"}}>
-            <NavItem>About</NavItem>
+            <NavItem overlay={overlay} style={{ marginLeft: overlay ? 0 : '35px'}}>About</NavItem>
           </Link>
       </Navbar>
     );

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
-import logo from '../img/Asset 8@2x copy.png';
+import logo from '../img/logo.png';
 
 const Root = styled.div`
   display: flex;
@@ -31,6 +31,7 @@ const Name = styled.div`
   padding-left: 10px;
   font-size: 16px;
   font-weight: 500;
+  line-height: 21px;
 `;
 
 class LogoWithName extends PureComponent {

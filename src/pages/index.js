@@ -50,10 +50,11 @@ const ProjectLi = styled.li`
   line-height: 17px;
   padding: 7.5px;
   cursor: pointer;
-  transition: transform 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transition: transform 350ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 
   @media (max-width: 768px) {
-    padding-top: 12.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   :hover {
@@ -120,7 +121,7 @@ export default class IndexPage extends React.Component {
   updateMenu = () => {
     if (this.wrapper.offsetWidth < 768) {
       if (!this.state.isPadSize) {
-        this.setState({ isPadSize: true, activeIndex: null });
+        this.setState({ isPadSize: true, activeIndex: this.props.location.state || null });
       }
     } else {
       if (this.state.isPadSize) {
@@ -279,7 +280,7 @@ export default class IndexPage extends React.Component {
             />
           </BackgroundImageWrapper>
         )}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

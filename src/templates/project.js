@@ -1,5 +1,5 @@
 import React, { Fragment, Component } from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
@@ -20,6 +20,11 @@ const Section = styled.div`
     width: 100%;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  @media (max-width: 480px) {
+    padding-left: 75px;
+    padding-right: 75px;
   }
 `;
 
@@ -119,39 +124,53 @@ const Bottom = styled.div`
   font-weight: 600;
   font-size: 18px;
   color: #000;
+  padding-bottom: 50px;
 `;
 
 const PrevButton = styled.div`
   padding-right: 17px;
-  cursor: pointer;
   transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 
   :before {
     content: '< ';
   }
 
-  :hover {
-    transform: translateX(-5px);
-  }
+  ${({ disabled }) =>
+    disabled
+      ? css`
+          opacity: 0.3;
+        `
+      : css`
+          :hover {
+            transform: translateX(-5px);
+          }
+        `};
 `;
 
 const NextButton = styled.div`
   padding-left: 17px;
-  cursor: pointer;
   transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 
   :after {
     content: ' >';
   }
-  :hover {
-    transform: translateX(5px);
-  }
+  ${({ disabled }) =>
+    disabled
+      ? css`
+          opacity: 0.3;
+        `
+      : css`
+          :hover {
+            transform: translateX(5px);
+          }
+        `};
 `;
 
 export class ProjectTemplate extends Component {
   state = {
     isOpen: false,
     currentImage: 0,
+    overlay: false,
   };
 
   onOpenLightBox = i => {
@@ -160,6 +179,12 @@ export class ProjectTemplate extends Component {
       currentImage: i,
     });
   };
+
+  onToggleBurger = () => {
+    this.setState({
+      overlay: !this.state.overlay,
+    })
+  }
 
   render() {
     const {
@@ -177,10 +202,11 @@ export class ProjectTemplate extends Component {
     const PostContent = contentComponent || Content;
     return (
       <Fragment>
+        <NavbarWithLinks onToggleBurger={this.onToggleBurger} overlay={this.state.overlay} />
         <Section>
           {helmet || ''}
           <Title>{title}</Title>
-          <ContentWrapper>
+          <ContentWrapper overlay={this.state.overlay}>
             <LeftContent>
               <SmallTitle>Story</SmallTitle>
               <PostContent content={content} className="post" />
@@ -233,16 +259,22 @@ export class ProjectTemplate extends Component {
             )}
         </ImgSection>
         <Bottom>
-          {previous && (
-            <PrevButton>
-              <Link to={previous}>Previous</Link>
-            </PrevButton>
-          )}
-          {next && (
-            <NextButton>
-              <Link to={next}>Next</Link>
-            </NextButton>
-          )}
+          <PrevButton disabled={!previous}>
+            <Link
+              to={previous}
+              style={{ pointerEvents: previous ? 'all' : 'none' }}
+            >
+              Previous
+            </Link>
+          </PrevButton>
+          <NextButton disabled={!next}>
+            <Link
+              to={next}
+              style={{ pointerEvents: next ? 'all' : 'none' }}
+            >
+              Next
+            </Link>
+          </NextButton>
         </Bottom>
       </Fragment>
     );
@@ -259,14 +291,12 @@ ProjectTemplate.propTypes = {
 };
 
 const BlogPost = ({ data, pathContext }) => {
-
   const { markdownRemark: post } = data;
   if (pathContext.prev === '/about/') {
     pathContext.prev = null;
   }
   return (
     <Fragment>
-      <NavbarWithLinks />
       <ProjectTemplate
         date={post.frontmatter.date}
         heroImage={post.frontmatter.heroImage}
