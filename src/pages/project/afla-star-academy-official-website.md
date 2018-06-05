@@ -17,11 +17,7 @@ AFLA STAR ACADEMY 是由阿爾發音樂ALFA MUSIC直接設立的「全流行藝�
 
 
 
->
->
-> [_**View Website**_](https://www.alfamusic.com.tw/)
->
->
+[**_View Website_**](https://www.alfamusic.com.tw/)
 
 
 
