@@ -135,7 +135,7 @@ class Navbar extends PureComponent {
   };
 
   onHomeClick = () => {
-    if (this.props.onActiveNavItem) {
+    if (this.props.onActiveNavItem && !this.props.inline) {
       this.props.onActiveNavItem(null);
     } else {
       navigateTo('/')
