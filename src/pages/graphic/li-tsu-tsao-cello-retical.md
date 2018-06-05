@@ -1,6 +1,6 @@
 ---
 templateKey: graphic
-title: Li tsu Tsao Cello Retical
+title: Li Tsu Tsao Cello Recital
 date: '2017-04-20'
 tags:
   - Visual Design / Poster Design
