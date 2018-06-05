@@ -6,9 +6,9 @@ tags:
   - Graphic Design / Poster Design
 heroImage: /img/03.png
 galleryImages:
-  - /img/07.png
-  - /img/01.png
-  - /img/02.png
+  - /img/shape_01.png
+  - /img/shape_02.png
+  - /img/shape_03.png
 ---
 討論不同形狀和代表意義的系列海報。
 
