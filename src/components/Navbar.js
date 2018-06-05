@@ -71,11 +71,6 @@ const MenuWrapper = styled.div`
     `};
 `;
 
-const flash = keyframes`
- from {transform: rotateX(-180deg)}
-  to {transform: rotateX(0deg)}
-`;
-
 export const NavItem = styled.div`
   font-size: 14px;
   font-weight: 500;
@@ -84,7 +79,7 @@ export const NavItem = styled.div`
   padding-top: 6px;
   padding-bottom: 6px;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 
   ${({ overlay }) =>
     overlay
@@ -99,8 +94,7 @@ export const NavItem = styled.div`
         `
       : css`
           :hover {
-            animation: ${flash} 250ms;
-            animation-duration: 250ms;
+            transform: rotateX(720deg);
           }
         `};
 
@@ -163,6 +157,7 @@ class Navbar extends PureComponent {
         </Root>
         <Burger
           onClick={() => {
+            this.props.onActiveNavItem(null);
             this.setState({ menuShow: !this.state.menuShow });
           }}
           show={this.state.menuShow}
@@ -170,7 +165,7 @@ class Navbar extends PureComponent {
         <Transition
           from={{ x: 100 }}
           enter={{ x: 0 }}
-          leave={{ x: 100 }}
+          // leave={{ x: 100 }}
           native
         >
           {this.state.menuShow

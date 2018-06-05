@@ -46,23 +46,18 @@ const SubMenu = styled.ul`
     `};
 `;
 
-const flash = keyframes`
- from {transform: rotateX(-180deg)}
-  to {transform: rotateX(0deg)}
-`;
-
 const ProjectLi = styled.li`
   line-height: 17px;
   padding: 7.5px;
   cursor: pointer;
+  transition: transform 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 
   @media (max-width: 768px) {
     padding-top: 12.5px;
   }
 
   :hover {
-    animation: ${flash} 250ms;
-    animation-duration: 250ms;
+    transform: rotateX(720deg);
   }
 `;
 
@@ -201,7 +196,6 @@ export default class IndexPage extends React.Component {
         <Transition
           from={{ x: 100 }}
           enter={{ x: 0 }}
-          leave={{ x: 100 }}
           native
         >
           {activeIndex && activeIndex !== 'about'
