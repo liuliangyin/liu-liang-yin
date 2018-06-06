@@ -6,6 +6,7 @@ tags:
   - Icon Design
 heroImage: /img/icon_set.png
 galleryImages:
-  - /img/icon_set2.gif
+  - /img/icon_set.png
+  - /img/icon_set.gif
 ---
 Icon Set
