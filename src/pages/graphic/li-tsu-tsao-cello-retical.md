@@ -4,11 +4,13 @@ title: Li Tsu Tsao Cello Recital
 date: '2017-04-20'
 tags:
   - Visual Design / Poster Design
-heroImage: /img/a3-poster-mockup-vol-12-copy.png
+heroImage: /img/tsaolitsu_poster_01.png
 galleryImages:
-  - /img/tsaolitsu01.png
-  - /img/tsaolitsu02.png
-  - /img/tsaolitsu03.png
+  - /img/tsaolitsu_poster_01.png
+  - /img/tsaolitsu_program-book_01.jpg
+  - /img/tsaolitsu_program-book_02.jpg
+  - /img/tsaolitsu_program-book_03.jpg
+  - /img/invatation_card.png
 ---
 大提琴獨奏會音樂會活動平面視覺設計。
 
@@ -23,3 +25,17 @@ Key vision presents performer's elegance and profession. Shows the atmosphere of
 \-
 
 Design pruducts: poster, invitation card, program book.
+
+
+
+_Poster KV
+
+size:420*594mm
+
+_Invitation Card
+
+size:105*148mm
+
+_Program Book
+
+size:258*182mm (橫式)
