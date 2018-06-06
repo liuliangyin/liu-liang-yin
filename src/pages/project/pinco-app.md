@@ -16,7 +16,7 @@ Pinco品刻為艾普麥斯特公司旗下產品。為一專注於健身的訂課
 
 Web / 負責繪製Guideline Icon Set
 
-App / 設計進度約進行至1/3時加入專案，與另一設計師溝通、合作、最後完成此App功能畫面，參與部分包括User Flow、Wireframe及UI畫面的製作。使用Zeplin和製作Prototype與工程師溝通。
+App / 設計進度約進行至1/3時加入專案，與另一設計師溝通、合作、最後完成此App功能畫面，參與部分包括功能討論、User Flow、Wireframe及UI畫面的製作。使用Zeplin和製作Prototype與工程師溝通。
 <br/>
 
 另獨立完成Pinco App下載頁面。
