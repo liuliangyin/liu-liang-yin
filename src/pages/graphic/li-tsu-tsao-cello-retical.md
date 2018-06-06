@@ -6,7 +6,8 @@ tags:
   - Visual Design / Poster Design
 heroImage: /img/tsaolitsu_poster_01.png
 galleryImages:
-  - /img/tsaolitsu_poster_01.png
+  - /img/tsaolitsu_poster_cover.png
+  - /img/tsaolitsu_poster_01.jpg
   - /img/tsaolitsu_program-book_01.jpg
   - /img/tsaolitsu_program-book_02.jpg
   - /img/tsaolitsu_program-book_03.jpg
