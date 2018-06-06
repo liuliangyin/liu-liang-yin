@@ -36,5 +36,3 @@ UI Designer
 1 Product Manager
 
 3 Engineers
-
-![Pinco_Sitemap](/img/pinco_roadmap.jpg)
