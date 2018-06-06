@@ -4,7 +4,7 @@ title: Li Tsu Tsao Cello Recital
 date: '2017-04-20'
 tags:
   - Visual Design / Poster Design
-heroImage: /img/tsaolitsu_poster_01.png
+heroImage: /img/tsaolitsu_poster_cover.png
 galleryImages:
   - /img/tsaolitsu_poster_cover.png
   - /img/tsaolitsu_poster_01.jpg
