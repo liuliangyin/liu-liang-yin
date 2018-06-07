@@ -8,9 +8,8 @@ heroImage: /img/sendfuel_cover.png
 galleryImages:
   - /img/sendfuel_about.png
   - /img/sendfuel_landing.png
-  - /img/buildingpage_scroll.gif
   - /img/4.1_3d圖.gif
-  - /img/sendfuel_3d.png
   - /img/sendfuel_mobile.png
+  - null
 ---
 聖得福建設開發 官網設計
