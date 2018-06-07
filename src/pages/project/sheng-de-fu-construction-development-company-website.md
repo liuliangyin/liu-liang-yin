@@ -8,7 +8,7 @@ heroImage: /img/sendfuel_cover.png
 galleryImages:
   - /img/sendfuel_about.png
   - /img/sendfuel_landing.png
-  - /img/buildingpage_scroll.gif
+  - /img/scroll_mockup.gif
   - /img/4.1_3d圖.gif
   - /img/sendfuel_mobile.png
 ---
