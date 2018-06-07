@@ -15,10 +15,10 @@ AFLA STAR ACADEMY 是由阿爾發音樂ALFA MUSIC直接設立的「全流行藝�
 
 運用阿爾發原有的金色logo及豐富的演藝表演影音、照片素材，延伸製作出一個吸引人的娛樂性官網。此網站使用wix製作。
 
+<br/>
 
+## **Website:https://www.alfamusic.com.tw/**
 
-[**_View Website_**](https://www.alfamusic.com.tw/)
+**<br/>**
 
-
-
-Clent: 阿爾發音樂ALFA MUSIC
+Client: 阿爾發音樂ALFA MUSIC
