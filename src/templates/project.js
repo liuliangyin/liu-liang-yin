@@ -21,11 +21,6 @@ const Section = styled.div`
     padding-left: 40px;
     padding-right: 40px;
   }
-
-  @media (max-width: 480px) {
-    padding-left: 75px;
-    padding-right: 75px;
-  }
 `;
 
 const Title = styled.h1`

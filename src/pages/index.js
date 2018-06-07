@@ -44,6 +44,10 @@ const SubMenu = styled.ul`
       top: 120px;
       left: 75px;
     `};
+
+  @media(max-width: 480px) {
+    left: 45px;
+  }
 `;
 
 const ProjectLi = styled.li`
@@ -63,7 +67,6 @@ const ProjectLi = styled.li`
 `;
 
 const ProjectYear = styled.div`
-  display: inline-block;
   font-size: 12px;
   font-weight: 300;
   color: #000;
@@ -74,13 +77,15 @@ const ProjectYear = styled.div`
 `;
 
 const ProjectName = styled.div`
-  display: inline-block;
   font-size: 13px;
   padding-left: 10px;
   color: #000;
 
   @media (max-width: 768px) {
     font-size: 18px;
+  }
+  @media (max-width: 480px) {
+    max-width: 200px;
   }
 `;
 
@@ -224,7 +229,7 @@ export default class IndexPage extends React.Component {
                               this.onChangeBackground()
                             }
                           >
-                            <Link to={post.fields.slug}>
+                            <Link to={post.fields.slug} style={{ display: 'flex' }}>
                               <ProjectYear>
                                 {post.frontmatter.date}
                               </ProjectYear>
