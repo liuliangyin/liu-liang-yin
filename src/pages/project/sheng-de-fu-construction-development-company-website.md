@@ -7,5 +7,6 @@ tags:
 heroImage: /img/mockup.png
 galleryImages:
   - /img/safari-psd-mockup.png
+  - /img/mockup.png
 ---
 聖得福建設開發 官網設計
