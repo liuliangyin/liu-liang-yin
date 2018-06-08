@@ -4,7 +4,7 @@ title: teddybear App
 date: '2018-06-08'
 tags:
   - Logo Design
-heroImage: /img/logo.gif
+heroImage: /img/teddybear_logo_cover.gif
 galleryImages:
   - /img/logo.gif
   - /img/artboard-1-2x-100.jpg
