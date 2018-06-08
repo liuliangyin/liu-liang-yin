@@ -10,7 +10,8 @@ galleryImages:
   - /img/pinco_icon2.gif
   - /img/pinco_icon-2x.png
   - /img/pinco_icon-copy-2-2x.png
-  - /img/screen-shot-2018-06-08-at-8.25.45-pm.png
+  - /img/pinco_icon_mockup1.png
+  - /img/pinco_icon_mockup2.png
 ---
 為Pinco品刻客製化繪製的一套Icon。
 
