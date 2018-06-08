@@ -3,7 +3,15 @@ templateKey: about-page
 title: Liu-Liang-Yin
 image: /img/cvpic.jpg
 ---
-Whenever you need to buy something that will go with whatever you are wearing that day, you may need to think about getting some designer watches. A watch is a piece of jewelry that you can wear every day, and it pretty much, will go with anything you are wearing. It’s not always going to make you look dressed up, but it may help you look more stylish, and sometimes that is all you want. Watches are the perfect answer 
+Hello! 
+
+My name is Liu Liang Yin.
+
+I Studied Product Design and graduated from NTNU 1 year ago.
+
+And now working as a Graphic & UI designer. This website is a collection of my works during 2014-2018. Hope you enjoy! 
+
+<br/>
 
 ## Capabilities
 
