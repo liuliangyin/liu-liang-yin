@@ -4,7 +4,7 @@ title: Pinco App
 date: '2018-05-26'
 tags:
   - Interaction & UI Design  / Visual Design
-heroImage: /img/simple-mockups-copy.jpg
+heroImage: /img/pinco_cover2.jpg
 galleryImages:
   - /img/pinco_roadmap.jpg
   - /img/pinco-app-gradientbg.png
