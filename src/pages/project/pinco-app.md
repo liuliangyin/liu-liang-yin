@@ -18,6 +18,16 @@ Pinco品刻為艾普麥斯特公司旗下產品。為一專注於健身的訂課
 
 <br/>
 
+Prototype Demo Link
+
+預約流程 <https://invis.io/W2H7KHWPGT4>
+
+自主訓練 [ ](https://invis.io/TFHGJNWQPN3)[https://invis.io/D8HDFY69VXE#/292572899_----------Light](https://invis.io/D8HDFY69VXE#/292572899_----------Light)
+
+\*下載Invision App可用手機觀看
+
+<br/>
+
 另獨立完成Pinco App下載頁面。
 
 <br/>
