@@ -4,7 +4,7 @@ title: Hang Out
 date: '2018-05-30'
 tags:
   - Illustration / Animation
-heroImage: /img/sunbeach-infinite-copy.gif
+heroImage: /img/sunbeach_cover.gif
 galleryImages:
   - /img/roadtrip-infinite-copy.gif
   - /img/sunbeach-infinite-copy.gif
