@@ -9,7 +9,6 @@ galleryImages:
   - /img/afla-star_cover.png
   - /img/techandall-apple-mockup3.png
   - /img/ezgif.com-video-to-gif-1-.gif
-  - /img/alfa_01.gif
   - /img/alfa_02.gif
   - /img/alfa_03.gif
   - null
