@@ -4,7 +4,7 @@ title: Golden Icon Set
 date: '2018-06-07'
 tags:
   - Icon Design
-heroImage: /img/asset-7-2x.png
+heroImage: /img/golden_icon_cover.png
 galleryImages:
   - /img/icon_logo.gif
   - /img/icon_set.gif
