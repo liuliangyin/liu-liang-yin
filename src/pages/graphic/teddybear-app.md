@@ -7,8 +7,8 @@ tags:
 heroImage: /img/teddybear_logo_cover.gif
 galleryImages:
   - /img/logo.gif
-  - /img/artboard-1-2x-100.jpg
   - /img/teddybear_mockup.jpg
+  - /img/teddybear_phone_mockup.jpg
 ---
 艾普麥斯特公司內部請假系統App之logo設計，teddybear的命名由來為負責此專案的實習生英文名Teddy。
 
