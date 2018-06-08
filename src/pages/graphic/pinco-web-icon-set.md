@@ -4,7 +4,7 @@ title: Pinco Web Icon Set
 date: '2018-06-08'
 tags:
   - Icon Design
-heroImage: /img/pinco_icon-copy-2-2x.png
+heroImage: /img/artboard-2-2x.png
 galleryImages:
   - /img/pinco_icon.gif
   - /img/pinco_icon-2x.png
