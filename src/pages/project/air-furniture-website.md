@@ -7,6 +7,7 @@ tags:
 heroImage: /img/mockup.jpg
 galleryImages:
   - /img/air-mockup-cover.png
+  - /img/08.png
   - /img/mockup.jpg
 ---
 AiR Infatable Furniture為2017畢業展覽的主題，產品設計類。AiR為一款專為單身族群設計的充氣家具。從「單身經濟」的議題出發，並選用充氣材質做家具，希望不只為單身族群帶來便於收納、且具生活享受的設計! 
