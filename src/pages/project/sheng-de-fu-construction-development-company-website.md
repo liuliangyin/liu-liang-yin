@@ -4,7 +4,7 @@ title: Sheng De Fu Construction Development Company Website
 date: '2018-06-07'
 tags:
   - Web Design
-heroImage: /img/mockup.png
+heroImage: /img/mockup_min.png
 galleryImages:
   - /img/origin-web.png
   - /img/sendfuel_about.png
