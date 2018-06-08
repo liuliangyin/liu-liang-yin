@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: AFLA STAR ACADEMY Official Website
-date: '2018-05-25'
+date: '2018-06-07'
 tags:
   - Web Design
 heroImage: /img/afla-star_cover.png
