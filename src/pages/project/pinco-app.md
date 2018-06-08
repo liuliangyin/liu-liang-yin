@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: Pinco App
-date: '2018-05-26'
+date: '2018-06-08'
 tags:
   - Interaction & UI Design  / Visual Design
 heroImage: /img/pinco_cover2.jpg
