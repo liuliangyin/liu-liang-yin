@@ -26,4 +26,8 @@ After finishing our product, we decided to make a brand website of AiR. The land
 
 \-
 
-In charge of design thinking, 1:1 solid modelling, exhibition planning, front-end developing, RWD.
+In charge of design thinking, 1:1 solid modeling, exhibition planning, front-end developing, RWD.
+
+<br/>
+
+## https://liuliangyin.github.io/AiR/
