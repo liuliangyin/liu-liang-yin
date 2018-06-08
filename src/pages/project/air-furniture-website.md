@@ -6,6 +6,7 @@ tags:
   - Product Design / Web Design
 heroImage: /img/mockup.jpg
 galleryImages:
+  - /img/18618688_1527857533953243_216828292_o.jpg
   - /img/air_product.gif
   - /img/air.gif
   - /img/mockup.jpg
