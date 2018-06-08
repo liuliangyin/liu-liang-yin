@@ -22,6 +22,8 @@ AiR Infatable Furniture為2017畢業展覽的主題，產品設計類。AiR為�
 
 個人負責：產品發想、產品實作、展場規劃、品牌網站規劃、網頁切版、RWD。
 
+<br/>
+
 AiR infatable Furniture is the theme of our final team project, category of product design. 
 
 An inflatable furniture designed for single groups. From the "single economy" issue, and the use of inflatable material to do furniture, hopes that not only bring convenience for the single groups, and also enjoy the design of life! 
