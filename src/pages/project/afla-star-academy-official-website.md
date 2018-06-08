@@ -7,7 +7,7 @@ tags:
 heroImage: /img/afla-star_cover.png
 galleryImages:
   - /img/afla-star_cover.png
-  - /img/techandall-apple-mockup3.png
+  - /img/alfa_mockup.png
   - /img/ezgif.com-video-to-gif-1-.gif
   - /img/alfa_04.gif
   - /img/alfa_03.gif
