@@ -7,9 +7,8 @@ tags:
 heroImage: /img/pinco_icon_cover.png
 galleryImages:
   - /img/pinco_icon.gif
-  - /img/pinco_icon2.gif
-  - /img/pinco_icon-2x.png
-  - /img/pinco_icon-copy-2-2x.png
+  - /img/pinco_icon_02.png
+  - /img/pinco_icon_01.png
   - /img/pinco_icon_mockup1.png
   - /img/pinco_icon_mockup2.png
 ---
