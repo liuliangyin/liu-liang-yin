@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: Air Furniture Website
-date: '2018-05-01'
+date: '2017-11-01'
 tags:
   - Product Design / Web Design
 heroImage: /img/mockup.jpg
