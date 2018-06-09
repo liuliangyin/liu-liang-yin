@@ -4,7 +4,7 @@ title: Global Volunteer Poster
 date: '2017-12-06'
 tags:
   - Poster Design
-heroImage: /img/dream_03.png
+heroImage: /img/dream_04.png
 galleryImages:
   - /img/dream_01.png
   - /img/dream_02.png
