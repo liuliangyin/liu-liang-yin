@@ -1,7 +1,7 @@
 ---
 templateKey: graphic
 title: teddybear App
-date: '2018-06-08'
+date: '2018-06-01'
 tags:
   - Logo Design
 heroImage: /img/teddybear_logo_cover.gif
