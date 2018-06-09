@@ -61,6 +61,10 @@ const ProjectLi = styled.li`
     padding-bottom: 10px;
   }
 
+  @media (max-width: 480px) {
+    line-height: 33px;
+  }
+
   :hover {
     transform: rotateX(720deg);
   }
@@ -208,6 +212,8 @@ export default class IndexPage extends React.Component {
             ? ({ x }) => (
                 <animated.div
                   style={{
+                    position: 'relative',
+                    zIndex: 2,
                     transform: interpolate(
                       x,
                       x => `translateX(${x}%)`,
