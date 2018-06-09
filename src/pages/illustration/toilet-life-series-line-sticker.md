@@ -1,6 +1,6 @@
 ---
 templateKey: illustration
-title: Toilet Life Series(Line Sticker)
+title: 'Line Sticker - Toilet Life '
 date: '2017-07-27'
 tags:
   - Illustration
