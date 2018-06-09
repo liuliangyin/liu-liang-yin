@@ -9,6 +9,9 @@ galleryImages:
   - /img/icon_logo.gif
   - /img/icon_set_slow_crop.gif
   - /img/icon_set.png
+  - /img/check_jiggle.gif
+  - /img/sync_rotate.gif
+  - /img/close_rotate.gif
 ---
 Icon Set 
 
