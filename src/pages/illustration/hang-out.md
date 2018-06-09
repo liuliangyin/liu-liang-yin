@@ -11,7 +11,7 @@ galleryImages:
   - /img/hangout03.gif
   - /img/hangout04.gif
 ---
-四格漫畫形式的動畫創作。
+四格漫畫形式的簡易動畫、插畫創作。
 
 Time to have fun!
 
