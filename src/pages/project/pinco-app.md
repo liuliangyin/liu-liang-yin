@@ -7,6 +7,7 @@ tags:
 heroImage: /img/pinco_cover2.jpg
 galleryImages:
   - /img/pinco_roadmap.jpg
+  - /img/pinco_wireframe-2x.png
   - /img/download_app_mockup.png
   - /img/gradientbg.png
   - /img/pinco_demo.gif
