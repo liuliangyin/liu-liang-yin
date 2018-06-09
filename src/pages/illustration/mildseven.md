@@ -11,4 +11,4 @@ galleryImages:
 ---
 Cigarette "MILDSEVEN"
 
-The most famous brand, and also the name of my cat.
+The most famous brand of cigarettes, and also the name of my cat.
