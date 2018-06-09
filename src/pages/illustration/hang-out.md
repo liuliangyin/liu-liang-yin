@@ -1,7 +1,7 @@
 ---
 templateKey: illustration
 title: Hang Out
-date: '2018-05-30'
+date: '2017-10-11'
 tags:
   - Illustration / Animation
 heroImage: /img/sunbeach_cover.gif
