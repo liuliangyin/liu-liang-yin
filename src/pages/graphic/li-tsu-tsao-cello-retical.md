@@ -6,11 +6,11 @@ tags:
   - Visual Design / Poster Design
 heroImage: /img/tsaolitsu_poster_cover.png
 galleryImages:
-  - /img/tsaolitsu_poster_cover.png
   - /img/tsaolitsu_poster_01.jpg
   - /img/tsaolitsu_program-book_01.jpg
   - /img/tsaolitsu_program-book_02.jpg
   - /img/tsaolitsu_program-book_03.jpg
+  - /img/tsaolitsu_poster_cover.png
   - /img/invatation_card.png
 ---
 大提琴獨奏會音樂會活動平面視覺設計。
