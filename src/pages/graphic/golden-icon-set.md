@@ -12,6 +12,6 @@ galleryImages:
 ---
 Icon Set 
 
-Including digital signs, geometric Shape, interface icons.
+Including digital signs, geometric shape, interface icons.
 
 Selection of color is inspired by Christmas.
