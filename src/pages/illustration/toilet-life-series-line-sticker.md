@@ -6,9 +6,8 @@ tags:
   - Illustration
 heroImage: /img/toilet_cover_min.png
 galleryImages:
-  - /img/toilet_cover_min.png
-  - /img/toilet.gif
   - /img/toilet_cover_w_min.png
+  - /img/toilet.gif
   - /img/line.png
 ---
 上廁所是一天最棒的時刻！
