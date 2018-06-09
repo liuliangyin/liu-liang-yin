@@ -8,10 +8,10 @@ heroImage: /img/golden_icon_cover.png
 galleryImages:
   - /img/icon_logo.gif
   - /img/icon_set_slow_crop.gif
-  - /img/icon_set.png
+  - /img/close_rotate.gif
   - /img/check_jiggle.gif
   - /img/sync_rotate.gif
-  - /img/close_rotate.gif
+  - /img/icon_set.png
 ---
 Icon Set 
 
