@@ -1,7 +1,7 @@
 ---
 templateKey: graphic
 title: Shape Discussion
-date: '2018-05-26'
+date: '2017-03-28'
 tags:
   - Graphic Design / Poster Design
 heroImage: /img/03.png
