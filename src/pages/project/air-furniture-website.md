@@ -6,6 +6,7 @@ tags:
   - Product Design / Web Design
 heroImage: /img/air_cover.png
 galleryImages:
+  - /img/18618825_1538504659501311_1519378873_o.png
   - /img/18618688_1527857533953243_216828292_o.jpg
   - /img/air_product.gif
   - /img/air.gif
