@@ -1,7 +1,7 @@
 ---
 templateKey: graphic
 title: Global Volunteer Poster
-date: '2018-06-03'
+date: '2017-12-06'
 tags:
   - Poster Design
 heroImage: /img/dream_03.png
@@ -14,4 +14,4 @@ galleryImages:
 
 DREAM UP
 
-活動海報設計
+活動海報設計稿
