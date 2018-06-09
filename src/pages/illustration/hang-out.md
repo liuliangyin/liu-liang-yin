@@ -6,10 +6,10 @@ tags:
   - Illustration / Animation
 heroImage: /img/sunbeach_cover.gif
 galleryImages:
-  - /img/roadtrip-infinite-copy.gif
-  - /img/sunbeach-infinite-copy.gif
-  - /img/under-the-sea-infinite-copy.gif
-  - /img/moutainmoutains-infinite-copy.gif
+  - /img/hangout01.gif
+  - /img/hangout02.gif
+  - /img/hangout03.gif
+  - /img/hangout04.gif
 ---
 四格漫畫形式的動畫創作。
 
