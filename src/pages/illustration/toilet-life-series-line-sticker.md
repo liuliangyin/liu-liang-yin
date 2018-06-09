@@ -15,9 +15,7 @@ galleryImages:
 ---
 Toilet Life 馬桶生活
 
-<br/>
-
-“上廁所是一天最棒的時刻！”
+上廁所是一天最棒的時刻！
 
 <br/>
 
