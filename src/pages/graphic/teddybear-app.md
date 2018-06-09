@@ -1,6 +1,6 @@
 ---
 templateKey: graphic
-title: teddybear App
+title: teddybear Logo
 date: '2018-06-01'
 tags:
   - Logo Design
