@@ -8,7 +8,6 @@ heroImage: /img/toilet_cover_min.png
 galleryImages:
   - /img/line.png
   - /img/toilet.gif
-  - /img/toilet_cover_w_min.png
   - /img/toilet_01-2x.png
   - /img/toilet_02-2x.png
   - /img/toilet_03-2x.png
