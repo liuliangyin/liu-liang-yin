@@ -7,7 +7,7 @@ tags:
 heroImage: /img/golden_icon_cover.png
 galleryImages:
   - /img/icon_logo.gif
-  - /img/icon_set.gif
+  - /img/icon_set2.gif
   - /img/icon_set.png
 ---
 Icon Set 
