@@ -15,12 +15,20 @@ galleryImages:
 ---
 Toilet Life 馬桶生活
 
+<br/>
+
 “上廁所是一天最棒的時刻！”
 
+<br/>
+
 一款以黑白線條繪製成的馬桶系列貼圖，忠實呈現人們在廁所的日常。 目前已在LINE creators market 上架，歡迎購買!
+
+<br/>
 
 Going to restroom is the most peaceful time!
 
 A series of Line sticker illustrated with black & white lines, which shows daily life in restroom. It is launched on LINE creators market already.  Welcome for purchasing!
+
+<br/>
 
 ## <https://store.line.me/stickershop/product/1822422>
