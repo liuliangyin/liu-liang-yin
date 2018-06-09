@@ -13,7 +13,7 @@ galleryImages:
   - /img/sync_rotate.gif
   - /img/icon_set.png
 ---
-Icon Set 
+Golden Icon Set 
 
 Including digital signs, geometric shape, interface icons.
 
