@@ -4,7 +4,7 @@ title: Shape Discussion
 date: '2017-03-28'
 tags:
   - Graphic Design / Poster Design
-heroImage: /img/03.png
+heroImage: /img/shape_cover.png
 galleryImages:
   - /img/shape_03.png
   - /img/shape_04.png
