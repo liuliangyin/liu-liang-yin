@@ -1,7 +1,7 @@
 ---
 templateKey: illustration
 title: Line Sticker - Annoying Hands
-date: '2017-08-16'
+date: '2017-08-01'
 tags:
   - Illustration / Animation
 heroImage: /img/06_cover.gif
