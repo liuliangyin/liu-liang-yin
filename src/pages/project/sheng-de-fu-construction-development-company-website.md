@@ -9,6 +9,7 @@ galleryImages:
   - /img/origin-web.png
   - /img/sendfuel_about.png
   - /img/sendfuel_landing.png
+  - /img/sendefuel_都更.png
   - /img/scroll_mockup.gif
   - /img/3d_mockup.gif
   - /img/sendfuel_cover02.png
