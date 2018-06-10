@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Liu-Liang-Yin
+title: '   '
 image: /img/cvpic.jpg
 ---
 Hello! 
