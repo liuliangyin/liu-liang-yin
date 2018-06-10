@@ -4,13 +4,14 @@ title: Sheng De Fu Construction Development Company Website
 date: '2018-06-07'
 tags:
   - Web Design
-heroImage: /img/mockup_min.png
+heroImage: /img/sendfuel_cover01.png
 galleryImages:
   - /img/origin-web.png
   - /img/sendfuel_about.png
   - /img/sendfuel_landing.png
   - /img/scroll_mockup.gif
   - /img/3d_mockup.gif
+  - /img/sendfuel_cover02.png
   - /img/sendfuel_mobile.png
 ---
 聖得福建設開發股份有限公司官網設計。
@@ -23,7 +24,7 @@ galleryImages:
 
 項目分類、資訊多，容易讓使用者迷路。另設計感較不足。
 
-<br/>
+\-
 
 網站需求
 
