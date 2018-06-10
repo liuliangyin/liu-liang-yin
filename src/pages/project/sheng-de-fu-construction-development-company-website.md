@@ -12,7 +12,6 @@ galleryImages:
   - /img/scroll_mockup.gif
   - /img/3d_mockup.gif
   - /img/sendfuel_cover02.png
-  - /img/sendfuel_mobile.png
 ---
 聖得福建設開發股份有限公司官網設計。
 
