@@ -111,9 +111,6 @@ const ProjectName = styled.div`
   padding-left: 10px;
   color: #000;
 
-  @media (max-width: 768px) {
-    font-size: 18px;
-  }
   @media (max-width: 480px) {
     max-width: 200px;
   }
