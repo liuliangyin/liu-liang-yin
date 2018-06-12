@@ -13,14 +13,14 @@ const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap-reverse;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-start;
 `;
 
 const Title = styled.div`
   font-size: 50px;
   font-weight: 400;
   padding-bottom: 30px;
-  text-align: center;
+  text-align: left;
 `;
 
 const Image = styled.img`
