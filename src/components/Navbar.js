@@ -32,8 +32,8 @@ const Root = styled.nav`
       height: 80px;
       display: flex;
       align-items: center;
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
       justify-content: space-between;
       background: #fdfdfd;
 
