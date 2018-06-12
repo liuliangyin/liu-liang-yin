@@ -16,22 +16,26 @@ const Root = styled.div`
 //   border-radius: 50%;
 //   flex: 1;
 // `;
-const Logo = styled.img`
-  width: 21px;
-  height: 21px;
+// const Logo = styled.img`
+//   width: 21px;
+//   height: 21px;
 
-  @media(max-width: 480px) {
-    width: 24px;
-    height: 24px;
-  }
-`;
+//   @media(max-width: 480px) {
+//     width: 24px;
+//     height: 24px;
+//   }
+// `;
 
 const Name = styled.div`
   color: #000;
-  padding-left: 10px;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 21px;
+
+  @media(max-width: 768px) {
+    font-size: 24px;
+    left: 40px;
+  }
 `;
 
 class LogoWithName extends PureComponent {
@@ -39,7 +43,7 @@ class LogoWithName extends PureComponent {
     return (
       <Root onClick={() => this.props.onClick()}>
         {/* <Logo /> */}
-        <Logo src={logo}/>
+        {/* <Logo src={logo}/> */}
         <Name>LIU LIANG YIN</Name>
       </Root>
     );

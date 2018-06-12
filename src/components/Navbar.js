@@ -16,7 +16,8 @@ const Root = styled.nav`
     hide &&
     css`
       display: none;
-    `} @media (max-width: 768px) {
+    `};
+  @media (max-width: 768px) {
     top: 30px;
     left: 50px;
   }
@@ -47,10 +48,6 @@ const MenuWrapper = styled.div`
   padding-top: 70px;
   transition: all 0.3s ease-in;
 
-  @media (max-width: 768px) {
-    padding-left: 35px;
-  }
-
   ${({ hide }) =>
     hide &&
     css`
@@ -76,10 +73,10 @@ export const NavItem = styled.div`
   font-weight: 500;
   color: ${props => (props.overlay ? 'white' : '#000')};
   opacity: ${props => (props.active ? 1 : 0.3)};
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
   cursor: pointer;
-  transition: all 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transition: all 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
   ${({ overlay }) =>
     overlay
@@ -87,6 +84,7 @@ export const NavItem = styled.div`
           opacity: 1;
           padding-top: 25px;
           padding-bottom: 25px;
+          font-size: 22px;
 
           :hover {
             opacity: 0.8;
@@ -96,14 +94,14 @@ export const NavItem = styled.div`
           :hover {
             transform: rotateX(720deg);
           }
-        `};
 
-  @media (max-width: 768px) {
-    font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    opacity: 1;
-  }
+          @media (max-width: 768px) {
+            font-size: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            opacity: 1;
+          }
+        `};
 `;
 
 const Overlay = styled.div`
@@ -138,7 +136,7 @@ class Navbar extends PureComponent {
     if (this.props.onActiveNavItem && !this.props.inline) {
       this.props.onActiveNavItem(null);
     } else {
-      navigateTo('/')
+      navigateTo('/');
     }
     this.setState({
       menuShow: false,
