@@ -14,7 +14,7 @@ galleryImages:
   - /img/pinco_demo.gif
   - /img/pinco_screen.jpg
 ---
-Pinco品刻為艾普麥斯特公司旗下產品。為一專注於健身的訂課平台。Pinco網站主要提供活動探索及訂課功能，App則更把重心放在貼身的自主訓練及身體記錄，並結合P-Cal讓使用者實際運用在訂課的金額折抵。希望能藉此App幫助使用者保持良好的運動習慣及身形體態。(2018.07 android版本預計上架)
+https://invis.io/D8HDFY69VXE#/292572899_--Pinco品刻為艾普麥斯特公司旗下產品。為一專注於健身的訂課平台。Pinco網站主要提供活動探索及訂課功能，App則更把重心放在貼身的自主訓練及身體記錄，並結合P-Cal讓使用者實際運用在訂課的金額折抵。希望能藉此App幫助使用者保持良好的運動習慣及身形體態。(2018.07 android版本預計上架)
 
 <br/>
 
@@ -26,7 +26,7 @@ Prototype Demo Link
 
 預約流程 <https://invis.io/W2H7KHWPGT4>
 
-自主訓練 [ ](https://invis.io/TFHGJNWQPN3)[https://invis.io/D8HDFY69VXE#/292572899_----------Light](https://invis.io/D8HDFY69VXE#/292572899_----------Light)
+自主訓練 https://invis.io/D8HDFY69VXE#/292572899
 
 \*下載Invision App可用手機觀看
 
