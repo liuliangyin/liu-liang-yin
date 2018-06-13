@@ -45,16 +45,41 @@ const SubMenu = styled.ul`
       left: 75px;
     `};
 
-  @media(max-width: 480px) {
+  @media (max-width: 480px) {
     left: 45px;
+  }
+`;
+
+const BackButton = styled.div`
+  font-size: 18px;
+  padding-left: 27.5px;
+  display: none;
+  maring-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: 500;
+
+  :before {
+    content: '<';
+    position: absolute;
+    left: 7.5px;
+  }
+
+  :hover {
+    opacity: 0.3;
+  }
+
+  @media (max-width: 768px) {
+    display: block;
   }
 `;
 
 const ProjectLi = styled.li`
   line-height: 17px;
   padding: 7.5px;
+  font-size: 14px;
   cursor: pointer;
-  transition: transform 350ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transition: transform 350ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
   @media (max-width: 768px) {
     padding-top: 10px;
@@ -63,6 +88,7 @@ const ProjectLi = styled.li`
 
   @media (max-width: 480px) {
     line-height: 33px;
+    font-weight: 500;
   }
 
   :hover {
@@ -85,9 +111,6 @@ const ProjectName = styled.div`
   padding-left: 10px;
   color: #000;
 
-  @media (max-width: 768px) {
-    font-size: 18px;
-  }
   @media (max-width: 480px) {
     max-width: 200px;
   }
@@ -130,7 +153,10 @@ export default class IndexPage extends React.Component {
   updateMenu = () => {
     if (this.wrapper.offsetWidth < 768) {
       if (!this.state.isPadSize) {
-        this.setState({ isPadSize: true, activeIndex: this.props.location.state || null });
+        this.setState({
+          isPadSize: true,
+          activeIndex: this.props.location.state || null,
+        });
       }
     } else {
       if (this.state.isPadSize) {
@@ -203,11 +229,7 @@ export default class IndexPage extends React.Component {
             About
           </NavItem>
         </Navbar>
-        <Transition
-          from={{ x: 100 }}
-          enter={{ x: 0 }}
-          native
-        >
+        <Transition from={{ x: 100 }} enter={{ x: 0 }} native>
           {activeIndex && activeIndex !== 'about'
             ? ({ x }) => (
                 <animated.div
@@ -221,6 +243,13 @@ export default class IndexPage extends React.Component {
                   }}
                 >
                   <SubMenu isPadSize={isPadSize}>
+                    <BackButton
+                      onClick={() => {
+                        this.setState({ activeIndex: null });
+                      }}
+                    >
+                      Back
+                    </BackButton>
                     {data[activeIndex] &&
                       data[activeIndex].edges.map(
                         ({ node: post }) => (
@@ -235,7 +264,10 @@ export default class IndexPage extends React.Component {
                               this.onChangeBackground()
                             }
                           >
-                            <Link to={post.fields.slug} style={{ display: 'flex' }}>
+                            <Link
+                              to={post.fields.slug}
+                              style={{ display: 'flex' }}
+                            >
                               <ProjectYear>
                                 {post.frontmatter.date}
                               </ProjectYear>
