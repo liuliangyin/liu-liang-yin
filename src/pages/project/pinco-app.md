@@ -10,9 +10,9 @@ galleryImages:
   - /img/預約活動flow-2x.png
   - /img/pinco_wireframe-2x.png
   - /img/download_app_mockup.png
-  - /img/gradientbg.png
   - /img/pinco_demo.gif
   - /img/pinco_screen.jpg
+  - /img/gradientbg.png
 ---
 Pinco品刻為艾普麥斯特公司旗下產品。為一專注於健身的訂課平台。Pinco網站主要提供活動探索及訂課功能，App則更把重心放在貼身的自主訓練及身體記錄，並結合P-Cal讓使用者實際運用在訂課的金額折抵。希望能藉此App幫助使用者保持良好的運動習慣及身形體態。(2018.07 android版本預計上架)
 
