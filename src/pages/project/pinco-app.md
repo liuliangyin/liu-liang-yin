@@ -32,7 +32,7 @@ Prototype Demo Link
 
 <br/>
 
-另獨立完成Pinco App下載頁面。
+另獨立完成Pinco App下載頁面設計。
 
 <br/>
 
