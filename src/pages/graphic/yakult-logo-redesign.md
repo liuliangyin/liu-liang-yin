@@ -6,7 +6,7 @@ tags:
   - Logo Design / Typography
 heroImage: /img/yakult_cover.png
 galleryImages:
-  - /img/yakult_04.png
+  - /img/yakult_05.png
   - /img/yakult_02.png
 ---
 Yakult養樂多 
