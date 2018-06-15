@@ -107,12 +107,13 @@ const ProjectYear = styled.div`
 `;
 
 const ProjectName = styled.div`
-  font-size: 13px;
+  font-size: 14px;
   padding-left: 10px;
   color: #000;
 
   @media (max-width: 480px) {
     max-width: 200px;
+    font-size: 18px;
   }
 `;
 
