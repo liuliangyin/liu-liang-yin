@@ -6,8 +6,9 @@ tags:
   - Interaction & UI Design  / Visual Design
 heroImage: /img/pinco_cover2.jpg
 galleryImages:
-  - /img/pinco_roadmap.jpg
+  - /img/pinco_cover2.jpg
   - /img/pinco_wireframe-2x.png
+  - /img/pinco_roadmap.jpg
   - /img/pinco_demo.gif
   - /img/pinco_screen.jpg
 ---
@@ -26,10 +27,6 @@ Prototype Demo Link
 自主訓練 <https://invis.io/D8HDFY69VXE#/292572899>
 
 \*下載Invision App可用手機觀看
-
-<br/>
-
-另獨立完成Pinco App下載網頁設計。
 
 <br/>
 
