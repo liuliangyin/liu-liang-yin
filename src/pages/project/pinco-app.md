@@ -6,12 +6,11 @@ tags:
   - Interaction & UI Design  / Visual Design
 heroImage: /img/pinco_cover2.jpg
 galleryImages:
-  - /img/pinco_cover2.jpg
   - /img/pinco_roadmap.jpg
   - /img/pinco_wireframe-2x.png
-  - /img/clas_iphone_mockup.png
-  - /img/pinco_demo.gif
+  - /img/pinco_cover2.jpg
   - /img/pinco_screen_mockup.png
+  - /img/pinco_demo.gif
   - /img/pinco_screen.jpg
   - /img/pinco_bike_mockup.png
 ---
