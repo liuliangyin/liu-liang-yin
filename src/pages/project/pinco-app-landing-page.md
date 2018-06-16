@@ -1,7 +1,7 @@
 ---
 templateKey: project
 title: Pinco App Landing Page
-date: '2018-06-01'
+date: '2018-06-07'
 tags:
   - Web Design / Landing Page
 heroImage: /img/download_app_mockup.png
