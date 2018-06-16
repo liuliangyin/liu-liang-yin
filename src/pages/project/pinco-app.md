@@ -10,6 +10,7 @@ galleryImages:
   - /img/pinco_wireframe-2x.png
   - /img/pinco_cover2.jpg
   - /img/class_iphone_mockup.png
+  - /img/pinco_track_screen.png
   - /img/pinco_demo.gif
   - /img/pinco_screen.jpg
   - /img/pinco_bike_mockup.png
