@@ -18,7 +18,7 @@ galleryImages:
 
 聖得福為一間主力於都市更新，近期發展快速的建設公司。聖得福建設希望公司能在品牌形象上有所轉型。
 
-\-
+<br/>
 
 分析
 
@@ -58,13 +58,13 @@ galleryImages:
 
 \| 風格質感、專業
 
-<br/>
+<br/><br/>
 
 ## My Role-
 
 Designer
 
-<br/>
+<br/><br/>
 
 ## Team-
 
@@ -72,6 +72,6 @@ Designer
 
 2 Engineers
 
-<br/>
+<br/><br/>
 
 ## http://www.sendfuel.com/
