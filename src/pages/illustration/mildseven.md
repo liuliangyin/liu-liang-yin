@@ -4,7 +4,7 @@ title: MILDSEVEN
 date: '2018-05-30'
 tags:
   - Illustration
-heroImage: /img/sevenstar_cover.png
+heroImage: /img/mildseven_cover.png
 galleryImages:
   - /img/sevenstar_001_light-2x.png
   - /img/sevenstar_002_light-2x.png
