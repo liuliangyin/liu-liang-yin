@@ -4,7 +4,7 @@ title: teddyBear Logo
 date: '2018-06-01'
 tags:
   - Logo Design / App Icon
-heroImage: /img/teddybear_appicon.png
+heroImage: /img/teddybear_cover.png
 galleryImages:
   - /img/teddybear_introduction.png
   - /img/teddybear_developement.png
