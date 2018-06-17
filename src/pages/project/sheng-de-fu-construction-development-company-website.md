@@ -64,7 +64,7 @@ galleryImages:
 
 Designer
 
-<br/><br/>
+<br/>
 
 ## Team
 
