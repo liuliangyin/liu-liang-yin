@@ -6,6 +6,7 @@ tags:
   - Logo Design
 heroImage: /img/teddybear_logo_cover.gif
 galleryImages:
+  - /img/teddybear_appicon.png
   - /img/teddybear_logo_01.gif
   - /img/outline3.gif
   - /img/teddybear_phone_mockup.jpg
