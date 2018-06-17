@@ -21,7 +21,7 @@ AFLA STAR ACADEMY 是由阿爾發音樂ALFA MUSIC直接設立的「全流行藝�
 
 <br/>
 
-Client: 阿爾發音樂ALFA MUSIC
+Client - 阿爾發音樂ALFA MUSIC
 
 <br/>
 
