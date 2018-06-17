@@ -58,7 +58,7 @@ galleryImages:
 
 \| 風格質感、專業
 
-<br/><br/>
+<br/>
 
 ## My Role
 
