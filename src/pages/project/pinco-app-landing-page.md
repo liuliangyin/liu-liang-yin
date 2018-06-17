@@ -7,7 +7,7 @@ tags:
 heroImage: /img/ladingpage_min.png
 galleryImages:
   - /img/ladingpage_min.png
-  - /img/pinco-app-gradientbg.png
+  - /img/gradientbg.png
 ---
 Landing Page Design for Pinco App.
 
