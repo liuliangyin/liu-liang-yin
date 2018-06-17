@@ -33,13 +33,13 @@ Prototype Demo Link
 
 <br/>
 
-## My Role-
+## My Role
 
 UI Designer
 
 <br/>
 
-## Team-
+## Team
 
 2 UI Designer
 
