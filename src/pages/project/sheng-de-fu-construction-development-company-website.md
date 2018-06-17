@@ -60,13 +60,13 @@ galleryImages:
 
 <br/><br/>
 
-## My Role-
+## My Role
 
 Designer
 
 <br/><br/>
 
-## Team-
+## Team
 
 1 Designer
 
