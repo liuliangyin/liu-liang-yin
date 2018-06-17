@@ -7,12 +7,12 @@ tags:
 heroImage: /img/sendfuel_cover01.png
 galleryImages:
   - /img/origin-web.png
+  - /img/sendfuel_cover02.png
   - /img/sendfuel_about.png
   - /img/sendfuel_landing.png
   - /img/sendefuel_都更.png
   - /img/scroll_mockup.gif
   - /img/3d_mockup.gif
-  - /img/sendfuel_cover02.png
 ---
 聖得福建設開發股份有限公司官網設計。
 
