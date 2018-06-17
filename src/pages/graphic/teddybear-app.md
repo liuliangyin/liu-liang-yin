@@ -7,8 +7,8 @@ tags:
 heroImage: /img/teddybear_appicon.png
 galleryImages:
   - /img/teddybear_introduction.png
-  - /img/outline3.gif
   - /img/teddybear_developement.png
+  - /img/outline3.gif
   - /img/teddybear_appicon.png
   - /img/teddybear_versions.png
 ---
