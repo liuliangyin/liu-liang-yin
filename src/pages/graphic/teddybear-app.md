@@ -8,6 +8,7 @@ heroImage: /img/teddybear_logo_cover.gif
 galleryImages:
   - /img/teddybear_appicon.png
   - /img/outline3.gif
+  - /img/teddybear_introduction.png
   - /img/teddybear_phone_mockup.jpg
   - /img/teddybear_others.png
 ---
