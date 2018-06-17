@@ -4,9 +4,9 @@ title: Pinco App Landing Page
 date: '2018-06-07'
 tags:
   - Web Design / Landing Page
-heroImage: /img/download_app_mockup.png
+heroImage: /img/ladingpage_min.png
 galleryImages:
-  - /img/download_app_mockup.png
+  - /img/ladingpage_min.png
   - /img/pinco-app-gradientbg.png
 ---
 Landing Page Design for Pinco App.
