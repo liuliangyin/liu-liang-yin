@@ -16,6 +16,6 @@ galleryImages:
 
 由泰迪熊的外型發展。logo希望讓人印象深刻為主。
 
-Logo Design of teddybear App, which is leave system in AppMaster Co.,Ltd. "teddybear" was name after the intern of this project, Teddy.
+Logo Design of teddyBear App, which is leave system in AppMaster Co.,Ltd. "teddyBear" was name after the intern of this project, Teddy.
 
 Appearance of logo developed by Teddy Bear of course. Wish it to be an impressive logo.
