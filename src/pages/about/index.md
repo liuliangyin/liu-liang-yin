@@ -15,7 +15,7 @@ Thanks for Watching!
 
 ## Capabilities
 
-Intersurface Design
+User Interface Design
 
 Visual Design
 
