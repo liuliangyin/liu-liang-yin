@@ -7,7 +7,7 @@ tags:
 heroImage: /img/pinco_cover2.jpg
 galleryImages:
   - /img/pinco_roadmap.jpg
-  - /img/pinco_wireframe-2x.png
+  - /img/pinco_wireframe_04-2x.jpg
   - /img/pinco_cover2.jpg
   - /img/class_iphone_mockup.png
   - /img/pinco_track_screen.png
