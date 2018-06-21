@@ -63,6 +63,8 @@ App目前開發中，持續使用testflight，協助工程師確認開發成果�
 
 ## Team
 
+<br/>
+
 2 UI Designer(me)
 
 1 Product Manager
