@@ -21,7 +21,9 @@ Pinco品刻為艾普麥斯特公司旗下產品。Pinco品刻是一個健身類�
 
 <br/>
 
-• Situation
+## Situation
+
+<br/>
 
 Pinco品刻為公司的新產品，分別有網站及App。個人負責Pinco App的介面設計，加入專案前，設計進度僅有粗略標準色及文字Guideline。
 
