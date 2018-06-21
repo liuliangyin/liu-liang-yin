@@ -43,6 +43,8 @@ Pinco品刻為公司的新產品，分別有網站及App。個人負責Pinco App
 
 ## Design Process
 
+<br/>
+
 得到Sitemap及功能需求後開始規劃，產出功能User Flow，與RD討論確認，進而規劃Wireframe來確認功能流程是否順暢，並依功能一一製作Mockup視覺稿。
 
 <br/>
