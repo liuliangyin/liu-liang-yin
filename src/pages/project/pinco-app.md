@@ -19,7 +19,7 @@ Pinco品刻為艾普麥斯特公司旗下產品。Pinco品刻是一個健身類�
 
 艾普麥斯特公司是致力於品牌APP產品研發及創意行銷推廣的新創公司。詳見[www.appmaster.cc](https://www.appmaster.cc/)
 
-<br/>
+<br/><br/>
 
 ## Situation
 
@@ -27,7 +27,7 @@ Pinco品刻為艾普麥斯特公司旗下產品。Pinco品刻是一個健身類�
 
 Pinco品刻為公司的新產品，分別有網站及App。個人負責Pinco App的介面設計，加入專案前，設計進度僅有粗略標準色及文字Guideline。
 
-<br/>
+<br/><br/>
 
 ## Goal
 
@@ -39,7 +39,7 @@ Pinco品刻為公司的新產品，分別有網站及App。個人負責Pinco App
 
 3.因應行銷需求，放大P-Cal功能
 
-<br/>
+<br/><br/>
 
 ## Design Process
 
@@ -57,7 +57,7 @@ Pinco品刻為公司的新產品，分別有網站及App。個人負責Pinco App
 
 App目前開發中，持續使用testflight，協助工程師確認開發成果。
 
-<br/>
+<br/><br/>
 
 ## Team
 
