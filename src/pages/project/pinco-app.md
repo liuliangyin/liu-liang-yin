@@ -65,8 +65,8 @@ App目前開發中，持續使用testflight，協助工程師確認開發成果�
 
 <br/>
 
-2 UI Designer(me)
+Designers(my role)
 
-1 Product Manager
+Engineers
 
-3 Engineers
+Product Manager
