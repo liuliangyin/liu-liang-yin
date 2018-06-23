@@ -13,7 +13,9 @@ This website is a collection of my works during 2016-2018.
 
 Thanks for Watching!
 
-You can find me on [LinkedIn](linkedin.com/in/liuliangyin)  / [Facebook](https://www.facebook.com/LIULIANGYIN)  / [Instagram](https://www.instagram.com/liang_yin_liu/), business inquiries lllliangggg13@gmail.com
+You can find me on [LinkedIn](linkedin.com/in/liuliangyin)  / [Facebook](https://www.facebook.com/LIULIANGYIN)  / [Instagram](https://www.instagram.com/liang_yin_liu/)
+
+Email: lllliangggg13@gmail.com
 
 <br/>
 
