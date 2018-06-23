@@ -7,7 +7,7 @@ Hello!
 
 My name is Liu Liang Yin.
 
-I studied Product Design and graduated from NTNU 1 year ago, and now working as a Graphic/UI Designer. This website is a collection of my works during 2016-2018. 
+I studied Product Design and graduated from NTNU 1 year ago, and now working as a Graphic/UI Designer. This website is a collection of my works during 2016-2018.
 
 Thanks for Watching!
 
@@ -31,4 +31,8 @@ Html5 / Css
 
 ## Contact
 
-[LinkedIn](linkedin.com/in/liuliangyin)      [Facebook](https://www.facebook.com/LIULIANGYIN)      [Instagram](https://www.instagram.com/liang_yin_liu/)
+[LinkedIn](linkedin.com/in/liuliangyin)     
+
+[Facebook](https://www.facebook.com/LIULIANGYIN)    
+
+[Instagram](https://www.instagram.com/liang_yin_liu/)
