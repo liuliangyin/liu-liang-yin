@@ -4,7 +4,7 @@ title: GSS Banner Design
 date: '2017-07-20'
 tags:
   - Banner Design
-heroImage: /img/gss_banner_01.png
+heroImage: /img/gss_banner_cover.png
 galleryImages:
   - /img/gss_banner_01.png
   - /img/gss_banner_gl.png
