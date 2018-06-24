@@ -7,13 +7,13 @@ tags:
 heroImage: /img/pinco_cover2.jpg
 galleryImages:
   - /img/pinco_roadmap.jpg
+  - /img/pinco_screen.jpg
   - /img/class_iphone_mockup.png
   - /img/pinco_order_screen.png
   - /img/pinco_track_screen.png
   - /img/pinco_demo.gif
   - /img/pinco_cover2.jpg
   - /img/pinco_bike_mockup.png
-  - /img/pinco_screen.jpg
 ---
 [Pinco品刻](https://www.pinco.fit/)為艾普麥斯特公司旗下產品。分別具有web及app的一個健身類訂課平台。主要提供使用者探索喜愛的運動項目及教練，與相同興趣者一同運動，達到健身效果！Pinco另結合虛擬代幣P-Cal，可實際運用在訂課金額折抵，讓您有更大的健身動力！
 
