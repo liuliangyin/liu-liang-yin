@@ -15,9 +15,9 @@ galleryImages:
   - /img/pinco_bike_mockup.png
   - /img/pinco_screen.jpg
 ---
-Pinco品刻為艾普麥斯特公司旗下產品。Pinco品刻是一個健身類訂課平台，主要提供使用者探索喜愛的運動項目及教練，與相同興趣者一同運動，達到健身效果！Pinco另結合虛擬代幣P-Cal，可實際運用在訂課金額折抵，讓您有更大的健身動力！
+[Pinco品刻](https://www.pinco.fit/)為艾普麥斯特公司旗下產品，是一個健身類訂課平台，主要提供使用者探索喜愛的運動項目及教練，與相同興趣者一同運動，達到健身效果！Pinco另結合虛擬代幣P-Cal，可實際運用在訂課金額折抵，讓您有更大的健身動力！
 
-艾普麥斯特公司是致力於品牌APP產品研發及創意行銷推廣的新創公司。詳見[www.appmaster.cc](https://www.appmaster.cc/)
+[艾普麥斯特公司](www.appmaster.cc)是致力於品牌APP產品研發及創意行銷推廣的新創公司。
 
 <br/>
 
