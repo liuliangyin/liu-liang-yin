@@ -21,7 +21,7 @@ galleryImages:
 
 <br/>
 
-## Situation
+• Situation
 
 <br/>
 
@@ -29,7 +29,7 @@ galleryImages:
 
 <br/>
 
-## Goal
+• Goal
 
 <br/>
 
@@ -41,7 +41,7 @@ galleryImages:
 
 <br/>
 
-## Design Process
+• Design Process
 
 <br/>
 
@@ -61,7 +61,7 @@ Pinco App專屬的P-Cal可在自主訓練的頁面兌換與預約活動時勾選
 
 <br/>
 
-## Result
+• Result
 
 <br/>
 
@@ -73,7 +73,7 @@ App目前開發中，持續使用testflight，協助工程師確認開發成果�
 
 <br/>
 
-## Team
+• Team
 
 <br/>
 
