@@ -21,17 +21,13 @@ galleryImages:
 
 <br/>
 
-• Situation
-
-<br/>
+● Situation
 
 我主要負責App所有紀錄及追蹤身體的功能的介面設計。團隊共有兩個設計師，加入專案前，設計進度僅有探索頁面及粗略標準色、文字Guideline。
 
 <br/>
 
-• Goal
-
-<br/>
+● Goal
 
 1.建立方便、清晰地使用者介面，打造好使用者體驗，讓一起運動更簡單
 
@@ -41,9 +37,7 @@ galleryImages:
 
 <br/>
 
-• Design Process
-
-<br/>
+● Design Process
 
 得知功能需求後開始規劃，產出Sitemap及功能User Flow，與團隊確認，依功能、需求優先順，先規劃Wireframe 來確認流程是否順暢，再依序製作Mockup 視覺稿。
 
@@ -61,9 +55,7 @@ Pinco App專屬的P-Cal可在自主訓練的頁面兌換與預約活動時勾選
 
 <br/>
 
-• Result
-
-<br/>
+● Result
 
 預約記錄、訓練記錄、身體數據、場地管理、會員等五大功能約花三個月依序完成Wireframe及Mockup，並規劃出統一的UI元件及完整的Guideline提供設計及開發團隊使用。中期因有大量工作檔案需要共享，主動向團隊提出使用plant來進行Sketch檔案的Version Control，讓兩位設計師都能快速同步檔案及使用相同元件，有效提升設計工作效率。
 
@@ -73,9 +65,7 @@ App目前開發中，持續使用testflight，協助工程師確認開發成果�
 
 <br/>
 
-• Team
-
-<br/>
+● Team
 
 Designers(my role)
 
