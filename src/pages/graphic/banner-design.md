@@ -1,6 +1,6 @@
 ---
 templateKey: graphic
-title: Banner Design
+title: GSS Banner Design
 date: '2017-07-20'
 tags:
   - Banner Design
