@@ -53,7 +53,7 @@ Pinco App專屬的P-Cal可在自主訓練的頁面兌換與預約活動時勾選
 
 ● Result
 
-預約記錄、訓練記錄、身體數據、場地管理、會員等五大功能約花三個月依序完成Wireframe及Mockup，並規劃出統一UI元件及完整的Guideline提供設計及開發團隊使用。中期因有大量工作檔案需要共享，主動向團隊提出使用plant來進行Sketch檔案的Version Control，讓兩位設計師都能快速同步檔案及使用相同元件，有效提升設計工作效率。
+預約記錄、訓練記錄、身體數據、場地管理、會員等五大功能約花三個月依序完成Wireframe及Mockup，並規劃出統一UI元件及Design Guideline提供設計及開發團隊使用。中期因有大量工作檔案需要共享，主動向團隊提出使用plant來進行Sketch檔案的Version Control，讓兩位設計師都能快速同步檔案及使用相同元件，有效提升設計工作效率。
 
 <br/>
 
