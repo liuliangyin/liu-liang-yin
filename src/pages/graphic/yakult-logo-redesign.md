@@ -1,7 +1,7 @@
 ---
 templateKey: graphic
 title: Yakult Logo Redesign
-date: '2017-06-06'
+date: '2016-06-07'
 tags:
   - Logo Design / Typography
 heroImage: /img/yakult_cover.png
