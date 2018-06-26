@@ -8,7 +8,7 @@ Hello!
 
 My name is Liu Liang Yin.
 
-I studied Product Design and graduated from NTNU 1 year ago, and now working as a Visual & UIUX  Designer. Designing is always interesting. I'll keep creating  products which are unique and friendly to use! 
+I studied Product Design and graduated from NTNU 1 year ago, and now working as a Visual & UIUX  Designer in Taipei. Designing is always interesting. I'll keep creating  products which are unique and friendly to use! 
 
 This website is a collection of my works during 2016-2018.
 
