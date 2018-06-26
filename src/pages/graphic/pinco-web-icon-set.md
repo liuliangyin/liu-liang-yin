@@ -18,4 +18,4 @@ Pinco customized icon design.
 
 <br/>
 
-## https://www.pinco.fit/
+[View in Website](https://www.pinco.fit/)
