@@ -11,9 +11,9 @@ galleryImages:
   - /img/hangout03.gif
   - /img/hangout04.gif
 ---
-四格漫畫形式的簡易動畫、插畫創作。
+在極度想呼吸新鮮空氣、出遠門的心情下，創作出的四格漫畫形式的插畫。
 
-Time to have fun!
+Need to breathe! Need to have fun! 
 
 Created with squared form, like comics. 
 
