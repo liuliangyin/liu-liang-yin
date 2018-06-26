@@ -18,7 +18,7 @@ Check out my CV [here](https://liuliangyin.com/img/liuliangyin_cv.pdf).
 
 You can also find me on [LinkedIn](linkedin.com/in/liuliangyin)  / [Facebook](https://www.facebook.com/LIULIANGYIN)  / [Instagram](https://www.instagram.com/liang_yin_liu/).
 
-✉ lllliangggg13@gmail.com.
+Email: lllliangggg13@gmail.com
 
 <br/>
 
