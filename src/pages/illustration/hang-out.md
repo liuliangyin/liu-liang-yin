@@ -17,10 +17,10 @@ Time to have fun!
 
 Created with squared form, like comics. 
 
-01 [_Roadtrip_](https://liuliangyin.github.io/roadtrip/)
+01 [Roadtrip](https://liuliangyin.github.io/roadtrip/)
 
-02 [_Lying on Beach_](https://liuliangyin.github.io/Beach/)
+02 [Lying on Beach](https://liuliangyin.github.io/Beach/)
 
-03 [_Under the Sea_](https://liuliangyin.github.io/underthesea/)
+03 [Under the Sea](https://liuliangyin.github.io/underthesea/)
 
-04 [_Hide in Mountains_](https://liuliangyin.github.io/moutains/)
+04 [Hide in Mountains](https://liuliangyin.github.io/moutains/)
