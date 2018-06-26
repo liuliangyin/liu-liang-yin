@@ -6,7 +6,8 @@ tags:
   - Icon Design
 heroImage: /img/golden_icon_cover.png
 galleryImages:
-  - /img/icon_logo.gif
+  - /img/golden_icon_01.png
+  - /img/golden_icon_02.png
   - /img/icon_set_slow_crop.gif
   - /img/close_rotate.gif
   - /img/check_jiggle.gif
