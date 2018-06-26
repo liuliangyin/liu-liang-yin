@@ -29,11 +29,3 @@ User Interface Design
 Visual Design
 
 Illustration
-
-## Tools
-
-Sketch / Invision / Figma / Zeplin 
-
-Illustrator / Photoshop / Indesign
-
-Html5 / Css
