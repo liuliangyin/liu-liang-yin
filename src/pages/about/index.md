@@ -2,6 +2,7 @@
 templateKey: about-page
 title: '   '
 image: /img/cvpic.jpg
+resume: /img/劉亮吟liuliangyin_resume_2018.pdf
 ---
 Hello! 
 
