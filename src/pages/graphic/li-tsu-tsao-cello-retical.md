@@ -25,9 +25,27 @@ The key visual identity is to conveys performer's elegance and profession, shows
 
 <br/>
 
+[活動連結](https://www.facebook.com/events/454244704922932/)
+
 Design / Liu Liang Yin
 
 Photography / [Brian x photography](https://www.facebook.com/briannn0404/)
+
+<br/>
+
+Program：
+
+L.V Beethoven : 12 Variations on 'Ein Mädchen oder Weibchen', Op.66
+
+Ernest Bloch : From Jewish Life
+
+Gaspar Cassado : Requiebros
+
+\----intermission中場休息-----
+
+Sergei Rachmaninov : Prelude in F major, op.2, No.1
+
+S. Barber : Cello Sonata in C minor, op.6
 
 <br/>
 
