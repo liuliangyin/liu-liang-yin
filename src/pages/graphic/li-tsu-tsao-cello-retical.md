@@ -15,19 +15,27 @@ galleryImages:
 ---
 Li Tsu Tsao 大提琴獨奏會音樂會活動視覺。
 
-設計希望呈現簡單、優雅。極少的顏色搭配極細的線條，帶出大提琴低沈、優雅、神秘的氛圍。
-
-設計品 : 海報、邀請卡、節目單。 
+設計希望呈現簡單、優雅。極少的顏色搭配極細的線條，帶出大提琴低沈、優雅、神秘的氛圍。 
 
 <br/>
 
 Visual design of Li Tsu Tsao Cello Recital.
 
-Main spirit of design is to present performer's elegance and profession. Shows deep and mysterious atmosphere of cello.
+The key visual identity is to conveys performer's elegance and profession, shows deep and mysterious atmosphere of cello.
 
-\-
+<br/>
+
+Design / Liu Liang Yin
+
+Photography / [Brian x photography](https://www.facebook.com/briannn0404/)
+
+<br/>
+
+活動設計項目 : 海報、邀請卡、節目單。
 
 Design products include poster, invitation card and program book.
+
+<br/>
 
 _Poster KV
 
