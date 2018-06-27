@@ -17,13 +17,13 @@ galleryImages:
 
 <br/>
 
-● SITUATION
+● Situation
 
 阿爾發星光學院原先並無官網，希望製作此網站作為品牌宣傳以及學員報名培訓課程統一入口，連結 AppMaster 產品頁面完成報名程序。設計資源上僅能提供現有的影音照片及Logo，並希望短時間能夠完成。
 
 <br/>
 
-● GOAL
+● Goal
 
 1.吸引對演藝有興趣的年輕人，參加培訓課程
 
@@ -33,19 +33,19 @@ galleryImages:
 
 <br/>
 
-● DESIGN PROCESS
+● Design Process
 
 因先前提到的設計條件，與團隊討論後決定以 Wix 工具製作，最能快速產出功能性的 RWD 網站。獨立負責此專案的設計和製作，將 Logo 的金色延伸作為網站主要視覺顏色，並利用阿爾發提供之演藝影音、照片素材，發展出動態影音豐富的娛樂官網。
 
 <br/>
 
-● RESULT
+● Result
 
 順利於兩個禮拜內完成素材收集、風格討論、及設計實作。包含連接 Domain 及優化網站 SEO，提供阿爾發星光學院全面使用線上快速報名服務，並大幅提升品牌形象。此網站可於各尺寸裝置上瀏覽。
 
 <br/>
 
-Client / 阿爾發音樂 ALFA MUSIC
+● Client / 阿爾發音樂 ALFA MUSIC
 
 <br/>
 
