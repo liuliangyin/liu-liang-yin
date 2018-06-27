@@ -13,7 +13,7 @@ galleryImages:
   - /img/tsaolitsu_poster_cover.png
   - /img/invatation_card.png
 ---
-Li Tsu Tsao 大提琴獨奏會音樂會活動視覺。
+曹立慈大提琴獨奏會 Li-Tsu Tsao Cello Recital 音樂會活動視覺。
 
 設計希望呈現簡單、優雅。極少的顏色搭配極細的線條，帶出大提琴低沈、優雅、神秘的氛圍。 
 
@@ -25,7 +25,7 @@ The key visual identity is to conveys performer's elegance and profession, shows
 
 <br/>
 
-[活動連結](https://www.facebook.com/events/454244704922932/)
+Li-Tsu Tsao Cello Recital [Event link](https://www.facebook.com/events/454244704922932/)
 
 Design / Liu Liang Yin
 
