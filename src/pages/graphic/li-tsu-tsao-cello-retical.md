@@ -13,21 +13,21 @@ galleryImages:
   - /img/tsaolitsu_poster_cover.png
   - /img/invatation_card.png
 ---
-大提琴獨奏會音樂會活動平面視覺設計。
+Li Tsu Tsao 大提琴獨奏會音樂會活動視覺。
 
 視覺風格主要呈現簡單、優雅。極少的顏色搭配極細的線條，帶出大提琴低沈、優雅、神秘的氛圍。
 
 設計品 : 海報、邀請卡、節目單。 
 
-Visual design for cello retical.
+<br/>
 
-Key vision presents performer's elegance and profession. Shows the atmosphere of deep and mysterious cello.
+Visual design of Li Tsu Tsao Cello Recital.
+
+Main spirit of design is to present performer's elegance and profession. Shows the atmosphere of deep and mysterious cello.
 
 \-
 
-Design pruducts: poster, invitation card, program book.
-
-
+Design products include poster, invitation card and program book.
 
 _Poster KV
 
