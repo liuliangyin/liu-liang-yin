@@ -14,7 +14,7 @@ This website is a collection of my works during 2016-2018.
 
 Thanks for Watching!
 
-Check out my CV [here](https://liuliangyin.com/img/liuliangyin_cv.pdf).
+Check out my CV [here](https://liuliangyin.com/img/liuliangyin_resume_2018.pdf).
 
 You can also find me on [LinkedIn](linkedin.com/in/liuliangyin)  / [Facebook](https://www.facebook.com/LIULIANGYIN)  / [Instagram](https://www.instagram.com/liang_yin_liu/).
 
