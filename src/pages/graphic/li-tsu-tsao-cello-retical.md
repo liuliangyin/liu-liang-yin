@@ -15,7 +15,7 @@ galleryImages:
 ---
 Li Tsu Tsao 大提琴獨奏會音樂會活動視覺。
 
-視覺風格主要呈現簡單、優雅。極少的顏色搭配極細的線條，帶出大提琴低沈、優雅、神秘的氛圍。
+設計希望呈現簡單、優雅。極少的顏色搭配極細的線條，帶出大提琴低沈、優雅、神秘的氛圍。
 
 設計品 : 海報、邀請卡、節目單。 
 
@@ -23,7 +23,7 @@ Li Tsu Tsao 大提琴獨奏會音樂會活動視覺。
 
 Visual design of Li Tsu Tsao Cello Recital.
 
-Main spirit of design is to present performer's elegance and profession. Shows the atmosphere of deep and mysterious cello.
+Main spirit of design is to present performer's elegance and profession. Shows deep and mysterious atmosphere of cello.
 
 \-
 
