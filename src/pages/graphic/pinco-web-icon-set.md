@@ -12,7 +12,7 @@ galleryImages:
   - /img/pinco_icon_mockup1.png
   - /img/pinco_icon_mockup2.png
 ---
-為Pinco品刻(艾普麥斯特旗下產品)網站客製化繪製的一套Icon。
+為 Pinco品刻(艾普麥斯特旗下產品)網站客製化繪製的一套 Icon。
 
 Pinco customized icon design.
 
