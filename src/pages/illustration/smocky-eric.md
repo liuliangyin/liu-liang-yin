@@ -12,4 +12,4 @@ galleryImages:
 ---
 描繪情人樣貌的插畫創作。
 
-Portrait of Eric.
+Portrait of Eric
