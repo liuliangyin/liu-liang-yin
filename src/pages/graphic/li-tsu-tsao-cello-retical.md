@@ -41,7 +41,7 @@ Ernest Bloch : From Jewish Life
 
 Gaspar Cassado : Requiebros
 
-\----intermission中場休息-----
+\----intermission-----
 
 Sergei Rachmaninov : Prelude in F major, op.2, No.1
 
@@ -65,4 +65,4 @@ size:105*148mm
 
 _Program Book
 
-size:258*182mm (橫式)
+size:258*182mm
