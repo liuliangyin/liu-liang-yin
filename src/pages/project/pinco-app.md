@@ -70,3 +70,7 @@ Designers(my role)
 Engineers
 
 Product Manager
+
+<br/>
+
+© 2018 Appmaster All Rights Reserved
