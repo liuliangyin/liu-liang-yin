@@ -12,11 +12,11 @@ galleryImages:
   - /img/teddybear_appicon.png
   - /img/teddybear_introduction.png
 ---
-艾普麥斯特公司內部請假系統App之logo設計。
+艾普麥斯特公司內部請假系統 App 之 Logo 設計。
 
-負責此專案的實習生英文名為Teddy，是此App的名稱來源。
+負責此專案的實習生英文名為 Teddy，是此 App 的名稱來源。
 
-Logo由泰迪熊的外型發展，希望讓人印象深刻為主。
+Logo 由泰迪熊的外型發展，希望讓人印象深刻為主。
 
 Logo Design of teddyBear App, which is leave system in AppMaster Co.,Ltd. "teddyBear" was name after the intern of this project, Teddy.
 
