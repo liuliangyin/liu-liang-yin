@@ -9,8 +9,9 @@ galleryImages:
   - /img/pinco_coloricon.png
   - /img/pinco_login.png
   - /img/class_iphone_mockup.png
-  - /img/pinco_order_screen.png
-  - /img/pinco_track_screen.png
+  - /img/pinco_appointments.png
+  - /img/pinco_pcal.png
+  - /img/pinco_training.png
   - /img/pinco_demo.gif
   - /img/pinco_cover2.jpg
   - /img/pinco_bike_mockup.png
@@ -29,11 +30,11 @@ galleryImages:
 
 ● Goal
 
-1. 建立方便、清晰地使用者介面，打造好使用者體驗，讓一起運動更簡單
+1.建立方便、清晰地使用者介面，打造好使用者體驗，讓一起運動更簡單
 
-2. 視覺化身體數據及運動資料，讓使用者以圖像方式輕鬆追蹤自己的紀錄、狀態並在運動中得到成就感
+2.視覺化身體數據及運動資料，讓使用者以圖像方式輕鬆追蹤自己的紀錄、狀態並在運動中得到成就感
 
-3. 讓使用者透過運動、上課獲取 P-Cal，實際折抵活動金額，藉此提高 App 使用率
+3.讓使用者透過運動、上課獲取 P-Cal，實際折抵活動金額，藉此提高 App 使用率
 
 <br/>
 
