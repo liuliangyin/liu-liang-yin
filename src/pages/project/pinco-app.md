@@ -61,6 +61,8 @@ Pinco App 專屬的 P-Cal 可在自主訓練的頁面兌換與預約活動時勾
 
 App 目前開發中，持續使用 Testflight，協助工程師確認開發成果。
 
+[實測宣傳影片](https://www.facebook.com/Pincotw/videos/287699795107341/)
+
 <br/>
 
 ● Team
