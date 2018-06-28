@@ -8,6 +8,7 @@ heroImage: /img/pinco_cover2.jpg
 galleryImages:
   - /img/pinco_roadmap.jpg
   - /img/pinco_screen.jpg
+  - /img/pinco_coloricon.png
   - /img/class_iphone_mockup.png
   - /img/pinco_order_screen.png
   - /img/pinco_track_screen.png
