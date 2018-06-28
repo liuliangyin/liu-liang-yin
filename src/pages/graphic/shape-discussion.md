@@ -15,4 +15,4 @@ galleryImages:
 ---
 結合幾何和有機的圖形，並以之代表自然世界物體意象系列海報。
 
-Designed shapes combined with geometric and nature shape which represent various objects in nature.
+Poster series of shapes consist of geometric and nature shape, which represent various objects in nature.
