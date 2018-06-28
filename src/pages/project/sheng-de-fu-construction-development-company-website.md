@@ -56,6 +56,8 @@ galleryImages:
 
 ● Client / 聖得福建設開發股份有限公司
 
+<br/>
+
 ● Team
 
 Liang-Yin (Me) - Web Designer
