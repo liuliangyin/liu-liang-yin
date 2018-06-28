@@ -4,9 +4,7 @@ title: '   '
 image: /img/cvpic.jpg
 resume: /img/liuliangyin_resume_2018.pdf
 ---
-Hi! 
-
-My name is Liu Liang Yin.
+Hi! My name is Liu Liang Yin.
 
 I studied Product Design and graduated from NTNU 1 year ago, and now working as an UI/UX  Designer in Taipei. I make interactive website and application interface. With my background of product design, I am perceptive and detail-minded when thinking about product experience. I believe that design can solve problems, and looking forwards to bringing ideas to life!
 
