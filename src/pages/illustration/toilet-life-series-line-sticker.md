@@ -19,7 +19,7 @@ Toilet Life 馬桶生活
 
 <br/>
 
-一款以黑白線條繪製成的馬桶系列貼圖，忠實呈現人們在廁所的日常。 目前已在LINE creators market 上架，歡迎購買!
+一款以黑白線條繪製成的馬桶系列貼圖，忠實呈現人們在廁所的日常。 目前已在 LINE creators market 上架，歡迎購買!
 
 <br/>
 
