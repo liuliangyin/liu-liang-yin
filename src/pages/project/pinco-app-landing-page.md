@@ -9,7 +9,7 @@ galleryImages:
   - /img/ladingpage_min.png
   - /img/gradientbg.png
 ---
-Landing Page Design for Pinco App.
+Landing Page Design for [Pinco App](http://liuliangyin.com/project/pinco-app/).
 
 此產品下載頁，主要介紹 Pinco App 活動探索、P-Cal、自主訓練及身體數據紀錄等四大公能。
 
