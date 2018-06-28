@@ -34,6 +34,6 @@ Go annoying your friends with these hands.
 
 Inspired by the little movements of hands. Different gestures and movements can represent different emotions and meanings.
 
-\-
+<br/>
 
-line creative market個人貼圖申請審核中。
+LINE creative market 個人貼圖申請審核中。
