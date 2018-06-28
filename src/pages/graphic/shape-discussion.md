@@ -13,6 +13,6 @@ galleryImages:
   - /img/shape_06.png
   - /img/shape_01.png
 ---
-討論不同形狀和代表意義的系列海報。
+結合幾何和有機的圖形，並以之代表自然世界物體意象系列海報。
 
-Posters Series for different shapes and meanings.
+Designed shapes combined with geometric and nature shape which represent various objects in nature.
