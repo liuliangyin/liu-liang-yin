@@ -15,7 +15,7 @@ galleryImages:
 ---
 AiR Infatable Furniture 為 2017 畢業展覽的主題，產品設計類。AiR 為一款專為單身族群設計的充氣家具。從「單身經濟」的議題出發，並選用充氣材質做家具，希望不只為單身族群帶來便於收納、且具生活享受的設計! 
 
-整體產品完成後，我們為 AiR infatable Furniture 建立產品品牌網站。網站的 Landing Page 以產品的介紹為主，搭配視覺輔助圖形，營造充氣品牌的輕盈感受。 
+整體產品完成後，我們為 AiR Inflatable Furniture 建立產品品牌網站。網站的 Landing Page 以產品的介紹為主，搭配視覺輔助圖形，營造充氣品牌的輕盈感受。 
 
 <br/>
 
@@ -25,7 +25,7 @@ AiR Infatable Furniture 為 2017 畢業展覽的主題，產品設計類。AiR �
 
 <br/>
 
-AiR infatable Furniture is the theme of our final team project, category of product design. 
+AiR Inflatable Furniture is the theme of our final team project, category of product design. 
 
 An inflatable furniture designed for single groups. From the "single economy" issue, and the use of inflatable material to do furniture, hopes that not only bring convenience for the single groups, and also enjoy the design of life! 
 
