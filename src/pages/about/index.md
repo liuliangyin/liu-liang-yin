@@ -8,7 +8,7 @@ Hi!
 
 My name is Liu Liang Yin.
 
-I studied Product Design and graduated from NTNU 1 year ago, and now working as an UI/UX  Designer in Taipei. Design is always interesting. And I believe that design can solve problems and improve human life! 
+I studied Product Design and graduated from NTNU 1 year ago, and now working as an UI/UX  Designer in Taipei. I make interactive website and application interface. With my background of product design, I am perceptive and detail-minded when thinking about product experience. I believe that design can solve problems, and looking forwards to bringing ideas to life!
 
 This website is a collection of my works during 2016-2018.
 
