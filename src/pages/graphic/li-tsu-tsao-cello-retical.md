@@ -19,13 +19,21 @@ galleryImages:
 
 <br/>
 
+活動視覺設計項目 : 海報、邀請卡、節目單。
+
+<br/>
+
 Visual design of Li Tsu Tsao Cello Recital.
 
 The key visual identity is to conveys performer's elegance and profession, shows deep and mysterious atmosphere of cello.
 
 <br/>
 
-Li-Tsu Tsao Cello Recital [Event link](https://www.facebook.com/events/454244704922932/)
+Design products include poster, invitation card and program book.
+
+<br/>
+
+Li-Tsu Tsao Cello Recital / [Event link](https://www.facebook.com/events/454244704922932/)
 
 Design / Liu Liang Yin
 
@@ -33,27 +41,7 @@ Photography / [Brian x photography](https://www.facebook.com/briannn0404/)
 
 <br/>
 
-Program：
-
-L.V Beethoven : 12 Variations on 'Ein Mädchen oder Weibchen', Op.66
-
-Ernest Bloch : From Jewish Life
-
-Gaspar Cassado : Requiebros
-
-\----intermission-----
-
-Sergei Rachmaninov : Prelude in F major, op.2, No.1
-
-S. Barber : Cello Sonata in C minor, op.6
-
-<br/>
-
-活動設計項目 : 海報、邀請卡、節目單。
-
-Design products include poster, invitation card and program book.
-
-<br/>
+\-----------------
 
 _Poster KV
 
