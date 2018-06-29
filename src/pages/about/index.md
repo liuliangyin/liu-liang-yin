@@ -16,6 +16,6 @@ This website is a collection of my works during 2016-2018. Thanks for watching!
 
 Here is my [CV](https://liuliangyin.com/img/liuliangyin_resume_2018.pdf).
 
-You can also find me on [LinkedIn](linkedin.com/in/liuliangyin)  / [Facebook](https://www.facebook.com/LIULIANGYIN)  / [Instagram](https://www.instagram.com/liang_yin_liu/).
+You can also find me on [Dribble](https://dribbble.com/liuliangyin) / [LinkedIn](linkedin.com/in/liuliangyin)  / [Facebook](https://www.facebook.com/LIULIANGYIN)  / [Instagram](https://www.instagram.com/liang_yin_liu/).
 
 Email: lllliangggg13@gmail.com
