@@ -11,7 +11,7 @@ galleryImages:
   - /img/gss_banner_gl.png
   - /img/gss_banner_system.png
 ---
-2017 GSS 叡揚資訊實習期間經手的網站 EDM Banner、Facebook/Google/Youtube 廣告及插畫設計。
+2017 於GSS 叡揚資訊實習期間設計的網站 EDM Banner、Facebook/Google/Youtube 廣告。
 
 Collection of Website/EDM Banner design, Facebook/Google/Youtube advertisements I designed during internship in [GSS](https://www.gss.com.tw/).
 
