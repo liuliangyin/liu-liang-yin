@@ -13,6 +13,8 @@ galleryImages:
 ---
 2017 於GSS 叡揚資訊實習期間設計有關[雲端產品](https://www.gsscloud.com/tw/vital?server=1)介紹的網站 EDM Banner、Facebook/Google/Youtube 廣告。
 
+<br/>
+
 Collection of Website/EDM Banner design, Facebook/Google/Youtube advertisements I designed during internship in [GSS](https://www.gss.com.tw/).
 
 [GSS Cloud_Vital Website Banner](https://www.gsscloud.com/tw/gss-cloud?server=1)
