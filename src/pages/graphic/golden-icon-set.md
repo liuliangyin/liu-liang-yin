@@ -14,6 +14,10 @@ galleryImages:
   - /img/sync_rotate.gif
   - /img/icon_set.png
 ---
+包含科技、幾何、介面符號的 Icon 設計。色彩選擇靈感來自於聖誕節。
+
+<br/>
+
 Golden Icon Set 
 
 Including digital signs, geometric shape, interface icons.
