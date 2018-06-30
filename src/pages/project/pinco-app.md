@@ -3,7 +3,7 @@ templateKey: project
 title: Pinco App
 date: '2018-06-08'
 tags:
-  - Interaction & UI Design  / Visual Design
+  - UI/UX Design  / Visual Design
 heroImage: /img/pinco_cover2.jpg
 galleryImages:
   - /img/pinco_coloricon.png
@@ -23,7 +23,7 @@ galleryImages:
 
 ● Situation
 
-團隊共兩位設計師，自己主要負責 App 所有紀錄及追蹤身體功能的介面設計。加入專案前，設計進度僅有探索頁面及粗略標準色、文字 Guideline。
+團隊共兩位設計師，自己主要負責 App 所有紀錄及追蹤身體功能的介面設計。加入專案前，需求尚未明確，且設計進度僅有探索頁畫面及粗略Guideline。
 
 <br/>
 
@@ -33,13 +33,15 @@ galleryImages:
 
 2.視覺化身體數據及運動資料，讓使用者以圖像方式輕鬆追蹤自己的紀錄、狀態並在運動中得到成就感
 
-3.讓使用者透過運動、上課獲取 P-Cal，實際折抵活動金額，藉此提高 App 使用率
+3.規劃讓使用者透過運動、上課獲取 P-Cal，實際折抵活動金額的功能，藉此提高 App 使用率
 
 <br/>
 
 ● Design Process
 
-得知功能需求後，規劃出功能 User Flow，與團隊確認加修正，依需求優先順，先規劃 Wireframe 確認流程是否順暢，再依序製作 Mockup 視覺稿。
+前期規劃部分，列出需求細項及規劃每個功能的 User Flow，與團隊確認加修正，後依需求優先順，以 Wireframe 確認流程是否順暢，再進入視覺稿階段。
+
+<br/>
 
 為提高健身消費者對活動的信任度，活動頁中盡可能清楚呈現所有活動及教練資訊，後續預約及活動相關提醒也依照不同狀態可於預約頁面查看。運動紀錄及身體數據規劃符合貼身查看、使用的設計。
 
@@ -49,13 +51,13 @@ Pinco App 專屬的 P-Cal 可在自主訓練的頁面兌換與預約活動時勾
 
 以簡易 Prototype 及 Zeplin 與工程團隊做開發溝通。另使用 Invision 製作兩主流程([預約活動](https://invis.io/W2H7KHWPGT4)、[自主訓練](https://invis.io/D8HDFY69VXE#/292572899))的 Prototype 提供行銷團隊在 App 未開發完成前與廠商 Demo 提案。
 
-為有效降低來回溝通成本，和設計師夥伴一同建立 Design Guideline，提供 UI 共⽤元件及各狀態圖⾯設計給開發團隊使用。
+為有效降低來回溝通成本，和設計師夥伴一同建立 Design Guideline，並提供 UI 共⽤元件及各狀態圖⾯設計給開發團隊使用。
 
 <br/>
 
 ● Result
 
-於 3 個月內依序完成預約記錄、訓練記錄、身體數據、場地管理、會員等五大功能的設計畫面。設計中期因有大量工作檔案需共享，主動向團隊提出使用 Plant 來進行 Sketch 檔案的 Version Control，讓兩位設計師都能快速同步檔案及使用相同元件，有效提升設計工作效率。
+於 3 個月內依序完成預約記錄、訓練記錄、身體數據、場地管理、會員等五大功能的設計畫面。設計中期因有大量工作檔案需共享，主動向團隊提出使用 Plant 進行 Sketch 檔案的 Version Control，讓兩位設計師都能快速同步檔案及使用相同元件，有效提升工作效率。
 
 <br/>
 
