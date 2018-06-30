@@ -54,10 +54,6 @@ galleryImages:
 
 <br/>
 
-● Client / 聖得福建設開發股份有限公司
-
-<br/>
-
 ● Team
 
 Liang-Yin (Me) - Web Designer
@@ -65,6 +61,10 @@ Liang-Yin (Me) - Web Designer
 Eric Yip - Full Stack Engineer
 
 Vibrissa Yang - Full Stack Engineer + Product Manager
+
+<br/>
+
+● Client / 聖得福建設開發股份有限公司
 
 <br/>
 
