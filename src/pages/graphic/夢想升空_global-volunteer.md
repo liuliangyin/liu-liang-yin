@@ -10,9 +10,7 @@ galleryImages:
   - /img/dream_02.png
   - /img/dream_03.png
 ---
-夢想升空
-
-DREAM UP
+夢想升空 DREAM UP
 
 活動海報設計稿
 
