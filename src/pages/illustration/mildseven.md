@@ -6,9 +6,13 @@ tags:
   - Illustration
 heroImage: /img/mildseven_cover.png
 galleryImages:
+  - /img/sevenstar_cover.png
   - /img/sevenstar_001_light-2x.png
   - /img/sevenstar_002_light-2x.png
+  - /img/291640111_m.jpg
 ---
-Cigarette "MEVIUS"
+Cigarette "MEVIUS", the most famous brand of cigarettes.
 
-The most famous brand of cigarettes, and also the name of my cat.
+I fell in love with the packaging design of MEVIUS especially the type which is exclusive sold in Japan at the first sight. They literally put many stars on them.★★★
+
+and also the name of my cat.
