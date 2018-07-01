@@ -15,4 +15,4 @@ Cigarette "MEVIUS", the most famous brand of cigarettes.
 
 I fell in love with the packaging design of MEVIUS especially which is exclusive sold in Japan at the first sight. They literally put many stars on them.★★★
 
-and also the name of my cat.
+And MEVIUS is also the name of my cat.
