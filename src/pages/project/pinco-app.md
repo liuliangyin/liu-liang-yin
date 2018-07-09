@@ -67,14 +67,4 @@ App 目前開發中，持續使用 Testflight，協助工程師確認開發成�
 
 <br/>
 
-● Team
-
-Designers(my role)
-
-Engineers
-
-RD lead
-
-<br/>
-
 © 2018 Appmaster All Rights Reserved
