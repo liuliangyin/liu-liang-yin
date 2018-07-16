@@ -12,6 +12,7 @@ galleryImages:
   - /img/pinco_coloricon.png
   - /img/pinco_login.png
   - /img/class_iphone_mockup.png
+  - /img/activity_page-2x.png
   - /img/pinco_appointments.png
   - /img/pinco_pcal.png
   - /img/pinco_training.png
@@ -52,7 +53,7 @@ galleryImages:
 
 Pinco App 專屬的 P-Cal 可在自主訓練的頁面兌換與預約活動時勾選折抵，每一筆紀錄皆可清楚地在「我的」頁面查詢。
 
-以簡易 Prototype 及 Zeplin 與工程團隊做開發溝通。另使用 Invision 製作兩主流程([預約活動](https://invis.io/W2H7KHWPGT4)、[自主訓練](https://invis.io/D8HDFY69VXE#/292572899))的 Prototype 提供行銷團隊在 App 未開發完成前與廠商 Demo 提案。
+以簡易 Prototype 及 Zeplin 與工程團隊做開發溝通。另使用 Invision 製作兩主流程預約活動、自主訓練的 Prototype 提供行銷團隊在 App 未開發完成前與廠商 Demo 提案。
 
 為有效降低來回溝通成本，和設計師夥伴一同建立 Design Guideline，並提供 UI 共⽤元件及各狀態圖⾯設計給開發團隊使用。
 
