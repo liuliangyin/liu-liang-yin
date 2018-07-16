@@ -6,6 +6,7 @@ tags:
   - UI/UX Design  / Interaction Design
 heroImage: /img/pinco_cover2.jpg
 galleryImages:
+  - /img/登入註冊flow.png
   - /img/預約活動flow-2x.png
   - /img/pinco_wireframe-2x.png
   - /img/pinco_coloricon.png
