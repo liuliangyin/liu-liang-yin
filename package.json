@@ -15,7 +15,7 @@
     "gatsby-remark-external-links": "^0.0.4",
     "gatsby-remark-images": "^1.5.65",
     "gatsby-source-filesystem": "^1.5.38",
-    "gatsby-transformer-remark": "^1.7.41",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^1.6.26",
     "lodash": "^4.17.10",
     "lodash-webpack-plugin": "^0.11.5",
